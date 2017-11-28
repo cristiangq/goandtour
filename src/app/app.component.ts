@@ -1,21 +1,23 @@
 import { Component } from '@angular/core';
-import { Platform } from 'ionic-angular';
+import { Platform, Config } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { TranslateService } from '@ngx-translate/core';
 
-import { HomePage } from '../pages/home/home';
+import { FirstRunPage } from '../pages/pages';
+
 @Component({
   templateUrl: 'app.html'
 })
 export class MyApp {
-  rootPage:any = HomePage;
+  rootPage:any = FirstRunPage;
 
   constructor(
       platform: Platform,
       statusBar: StatusBar,
       splashScreen: SplashScreen,
+      private config: Config,
       private translate: TranslateService,
   ) {
     platform.ready().then(() => {
@@ -29,14 +31,14 @@ export class MyApp {
 
   initTranslate() {
     // Set the default language for translation strings, and the current language.
-    this.translate.setDefaultLang('en');
+    this.translate.setDefaultLang('es');
 
     if (this.translate.getBrowserLang() !== undefined) {
       this.translate.use(this.translate.getBrowserLang());
     } else {
       this.translate.use('es'); // Set your language here
     }
-
+    
     this.translate.get(['BACK_BUTTON_TEXT']).subscribe(values => {
       this.config.set('ios', 'backButtonText', values.BACK_BUTTON_TEXT);
     });
