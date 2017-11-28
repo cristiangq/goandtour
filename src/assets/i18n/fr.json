@@ -1,0 +1,11 @@
+{
+  "NAME": "Nom",
+  "PASSWORD": "Mot de passe",
+  "EMAIL": "E-mail",
+  "LOGIN": "Connexion",
+  "SIGNUP": "Inscription",
+
+  "TAB1_TITLE": "Items",
+  "TAB2_TITLE": "Recherche",
+  "TAB3_TITLE": "Paramètres",
+}
