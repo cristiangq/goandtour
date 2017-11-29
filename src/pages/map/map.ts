@@ -10,7 +10,7 @@ declare var google;
 })
 export class MapPage {
 
-    @ViewChild('map') mapElement: ElementRef;
+  @ViewChild('map') mapElement: ElementRef;
   map: any;
 
 
@@ -26,6 +26,12 @@ export class MapPage {
     this.map = new google.maps.Map(this.mapElement.nativeElement, {
       zoom: 14,
       center: {lat: -27.50, lng: -64.86}
+    });
+
+    var marker = new google.maps.Marker({
+        position: {lat: -27.498372, lng: -64.863494},
+        map: this.map,
+        title: 'Centro Cultural'
     });
   }
 }

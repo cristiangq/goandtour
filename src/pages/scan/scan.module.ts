@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { TranslateModule } from '@ngx-translate/core';
 import { IonicPageModule } from 'ionic-angular';
 
+import { ComponentsModule } from '../../components/components.module';
+
 import { ScanPage } from './scan';
 
 @NgModule({
@@ -10,7 +12,8 @@ import { ScanPage } from './scan';
   ],
   imports: [
     IonicPageModule.forChild(ScanPage),
-    TranslateModule.forChild()
+    TranslateModule.forChild(),
+    ComponentsModule
   ],
   exports: [
     ScanPage

@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { TranslateModule } from '@ngx-translate/core';
 import { IonicPageModule } from 'ionic-angular';
 
+import { ComponentsModule } from '../../components/components.module';
+
 import { ListPage } from './list';
 
 @NgModule({
@@ -10,7 +12,8 @@ import { ListPage } from './list';
   ],
   imports: [
     IonicPageModule.forChild(ListPage),
-    TranslateModule.forChild()
+    TranslateModule.forChild(),
+    ComponentsModule
   ],
   exports: [
     ListPage
