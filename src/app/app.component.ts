@@ -4,6 +4,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { TranslateService } from '@ngx-translate/core';
+import { defaultLanguage, availableLanguages, sysOptions } from '../components/my-header/my-header.constants';
 
 import { FirstRunPage } from '../pages/pages';
 
@@ -30,17 +31,27 @@ export class MyApp {
   }
 
   initTranslate() {
-    // Set the default language for translation strings, and the current language.
-    this.translate.setDefaultLang('es');
+      // force load all languajes
+      for (let k in availableLanguages) {
+          this.translate.use(availableLanguages[k].code);
+      }
 
     if (this.translate.getBrowserLang() !== undefined) {
-      this.translate.use(this.translate.getBrowserLang());
+      var language = this.getSuitableLanguage(this.translate.getBrowserLang());
+      sysOptions.systemLanguage = language;
     } else {
-      this.translate.use('es'); // Set your language here
+      sysOptions.systemLanguage = defaultLanguage;
     }
-    
+    this.translate.setDefaultLang(sysOptions.systemLanguage);
+    this.translate.use(sysOptions.systemLanguage);
+
     this.translate.get(['BACK_BUTTON_TEXT']).subscribe(values => {
       this.config.set('ios', 'backButtonText', values.BACK_BUTTON_TEXT);
     });
+  }
+
+  getSuitableLanguage(language) {
+    language = language.substring(0, 2).toLowerCase();
+    return availableLanguages.some(x => x.code == language) ? language : defaultLanguage;
   }
 }

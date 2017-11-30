@@ -1,9 +1,9 @@
 {
-  "NAME": "Nombre",
-  "PASSWORD": "Contraseña",
-  "EMAIL": "Email",
-  "LOGIN": "Iniciar sesión",
-  "SIGNUP": "Registrarse",
+  "BACK_BUTTON_TEXT": "Atras",
+
+  "SELECT_LANGUAGE_TITLE": "Selecciona el idioma",
+  "SELECT_LANGUAGE_OK": "Seleccionar",
+  "SELECT_LANGUAGE_CANCEL": "Cancelar",
 
   "TAB1_TITLE": "Mapa",
   "TAB2_TITLE": "Lista",

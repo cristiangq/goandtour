@@ -1,12 +1,9 @@
 {
   "BACK_BUTTON_TEXT": "Back",
 
-  "NAME": "Name",
-  "EMAIL": "Email",
-  "USERNAME": "Username",
-  "PASSWORD": "Password",
-  "LOGIN": "Sign in",
-  "SIGNUP": "Sign up",
+  "SELECT_LANGUAGE_TITLE": "Choose Language",
+  "SELECT_LANGUAGE_OK": "Ok",
+  "SELECT_LANGUAGE_CANCEL": "Cancel",
 
   "TAB1_TITLE": "Map",
   "TAB2_TITLE": "List",
