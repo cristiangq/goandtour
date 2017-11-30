@@ -14,3 +14,31 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+
+.flag-icon-background {
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+.flag-icon {
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  position: relative;
+  display: inline-block;
+  width: 1.33333333em;
+  line-height: 1em;
+  margin-right: 5px;
+}
+.flag-icon:before {
+  content: "\00a0";
+}
+.flag-icon-es {
+  background-image: url(../assets/flags/4x3/es.svg);
+}
+.flag-icon-fr {
+  background-image: url(../assets/flags/4x3/fr.svg);
+}
+.flag-icon-en {
+  background-image: url(../assets/flags/4x3/en.svg);
+}

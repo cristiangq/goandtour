@@ -10,6 +10,7 @@ import { TranslateService } from '@ngx-translate/core';
 export class MyHeaderComponent {
 
   languages = availableLanguages;
+  currentLanguage = sysOptions.systemLanguage;
 
   constructor(public alertCtrl: AlertController,
       public translateService: TranslateService
@@ -22,10 +23,6 @@ export class MyHeaderComponent {
       let alertBtnOk = " ";
       let alertBtnCancel = " ";
 
-console.log('get values');
-console.log(this.translateService.currentLang);
-
-console.log(this.translateService.getTranslation('SELECT_LANGUAGE_TITLE'));
       this.translateService.get(['SELECT_LANGUAGE_TITLE', 'SELECT_LANGUAGE_OK', 'SELECT_LANGUAGE_CANCEL']).subscribe(values => {
           alertTitle = values['SELECT_LANGUAGE_TITLE'];
           alertBtnOk = values['SELECT_LANGUAGE_OK'];
@@ -50,11 +47,8 @@ console.log(this.translateService.getTranslation('SELECT_LANGUAGE_TITLE'));
       text: alertBtnOk,
       handler: data => {
         sysOptions.systemLanguage = data;
+        this.currentLanguage = sysOptions.systemLanguage;
         this.translateService.use(sysOptions.systemLanguage);
-        
-        console.log(sysOptions.systemLanguage);
-        console.log(this.translateService.currentLang);
-        console.log(this.translateService.getLangs());
       }
     });
     alert.present();
