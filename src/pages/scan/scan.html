@@ -3,9 +3,9 @@
 </ion-header>
 
 <ion-content padding>
-    {{ 'BACK_BUTTON_TEXT' | translate }}
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  <h1>{{ 'SCAN_TITLE' | translate }}</h1>
+  <p>{{ 'SCAN_DESCRIPTION' | translate }}</p>
+  <button ion-button color="dark" full round (click)="scan()">
+      {{ 'SCAN_BUTTON' | translate }}
+  </button>
 </ion-content>

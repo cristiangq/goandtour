@@ -5,6 +5,10 @@
   "SELECT_LANGUAGE_OK": "Seleccionar",
   "SELECT_LANGUAGE_CANCEL": "Cancelar",
 
+  "SCAN_TITLE": "Escaner Codigo QR",
+  "SCAN_DESCRIPTION": "Escanea el codigo QR para obtener mas información sobre el sitio que estas visitando",
+  "SCAN_BUTTON": "Escanear",
+
   "TAB1_TITLE": "Mapa",
   "TAB2_TITLE": "Lista",
   "TAB3_TITLE": "Escanear"

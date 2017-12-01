@@ -5,6 +5,10 @@
   "SELECT_LANGUAGE_OK": "Ok",
   "SELECT_LANGUAGE_CANCEL": "Cancel",
 
+  "SCAN_TITLE": "Scan QR Code",
+  "SCAN_DESCRIPTION": "Scan the QR code to get more information about the site you are visiting",
+  "SCAN_BUTTON": "Scan",
+
   "TAB1_TITLE": "Map",
   "TAB2_TITLE": "List",
   "TAB3_TITLE": "Scan"
