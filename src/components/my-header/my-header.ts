@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { AlertController } from 'ionic-angular';
+import { AlertController, Events } from 'ionic-angular';
 import { availableLanguages, sysOptions } from './my-header.constants';
 import { TranslateService } from '@ngx-translate/core';
 
@@ -13,7 +13,8 @@ export class MyHeaderComponent {
   currentLanguage = sysOptions.systemLanguage;
 
   constructor(public alertCtrl: AlertController,
-      public translateService: TranslateService
+      public translateService: TranslateService,
+      public events: Events
   ) {
 
   }
@@ -49,6 +50,7 @@ export class MyHeaderComponent {
         sysOptions.systemLanguage = data;
         this.currentLanguage = sysOptions.systemLanguage;
         this.translateService.use(sysOptions.systemLanguage);
+        this.events.publish("languageChanged");
       }
     });
     alert.present();
