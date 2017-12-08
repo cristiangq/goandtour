@@ -1,0 +1,102 @@
+[
+    {
+       "id": 1,
+       "latitude": -27.496242686015005,
+       "longitude": -64.85795974731445,
+       "address": "Av. Libertador 1110",
+       "main_image": "https://housecall-api-dashboard.bridgepatientportal.com/mob/image1.png",
+       "multimedia": ["https://go-and-tour-term-1510986193752.appspot.com/img1.png"],
+       "langs": {
+           "es": {
+               "title": "Parque Oeste",
+               "description": "Este renovado y moderno parque aloja el edificion del honorable consejo deliberantes de la ciudad y el teatro del pueblo y el centro cultutal ricardo rojas.",
+               "audio": "https://go-and-tour-term-1510986193752.appspot.com/audioen1.mp3"
+           },
+           "en": {
+               "title": "West Park",
+               "description": "This renovated and modern park houses the building of the honorable deliberative council of the city and the theater of the village and the red cultural center Ricardo.",
+               "audio": "https://go-and-tour-term-1510986193752.appspot.com/audioen1.mp3"
+           },
+           "fr": {
+               "title": "West Park",
+               "description": "Ce parc rénové et moderne abrite le bâtiment de l'honorable conseil délibératif de la ville et le théâtre du village et le centre culturel rouge Ricardo.",
+               "audio": "https://go-and-tour-term-1510986193752.appspot.com/audiofr1.mp3"
+           }
+       }
+   },
+   {
+      "id": 2,
+      "latitude": -27.497917650956726,
+      "longitude": -64.8649549484253,
+      "address": "Av. Libertador 1110",
+      "main_image": "https://housecall-api-dashboard.bridgepatientportal.com/mob/image2.png",
+      "multimedia": ["https://go-and-tour-term-1510986193752.appspot.com/img2.png"],
+      "langs": {
+          "es": {
+              "title": "Plaza Libertad",
+              "description": "La Plaza Libertad es una plaza pública que se encuentra en el barrio Retiro de la ciudad de Buenos Aires. Ubicada sobre la calle Cerrito, junto a la Avenida 9 de Julio, tiene sobre uno de sus costados al Teatro Coliseo, al moderno Edificio Libertad Plaza y bajo tierra funciona un estacionamiento municipal. ",
+              "audio": "https://go-and-tour-term-1510986193752.appspot.com/audioen2.mp3"
+          },
+          "en": {
+              "title": "Liberty Square",
+              "description": "The Plaza Libertad is a public square that is located in the Retiro neighborhood of the city of Buenos Aires. Located on Cerrito Street, next to 9 de Julio Avenue, it has on one of its sides the Teatro Coliseo, the modern Libertad Plaza Building and underground a municipal parking lot.",
+              "audio": "https://go-and-tour-term-1510986193752.appspot.com/audioen2.mp3"
+          },
+          "fr": {
+              "title": "Place de la Liberté",
+              "description": "La Plaza Libertad est une place publique qui se trouve dans le quartier Retiro de la ville de Buenos Aires. Situé sur la rue Cerrito, à côté de l'avenue 9 de Julio, il possède sur un de ses côtés le Teatro Coliseo, le moderne Libertad Plaza Building et un parking municipal souterrain.",
+              "audio": "https://go-and-tour-term-1510986193752.appspot.com/audiofr2.mp3"
+          }
+      }
+  },
+  {
+     "id": 3,
+     "latitude": -27.500734579971486,
+     "longitude": -64.86203670501709,
+     "address": "Av. Libertador 1110",
+     "main_image": "https://housecall-api-dashboard.bridgepatientportal.com/mob/image3.png",
+     "multimedia": ["https://go-and-tour-term-1510986193752.appspot.com/img3.png"],
+     "langs": {
+         "es": {
+             "title": "Casa de Gobierno",
+             "description": "La Casa de Gobierno de la Provincia de Santiago del Estero es la sede del Poder Ejecutivo Provincial y la oficina del Gobernador, y se encuentra en la capital homónima, dentro de la República Argentina. Historia[editar]. La anterior Casa de Gobierno de Santiago del Estero había sido construida para el Gobernador",
+             "audio": "https://go-and-tour-term-1510986193752.appspot.com/audioen3.mp3"
+         },
+         "en": {
+             "title": "Goverment house",
+             "description": "The Government House of the Province of Santiago del Estero is the seat of the Provincial Executive Power and the office of the Governor, and is located in the homonymous capital, within the Argentine Republic. History [edit]. The previous Government House of Santiago del Estero had been built for the Governor",
+             "audio": "https://go-and-tour-term-1510986193752.appspot.com/audioen3.mp3"
+         },
+         "fr": {
+             "title": "Maison du gouvernement",
+             "description": "La Maison du gouvernement de la province de Santiago del Estero est le siège du pouvoir exécutif provincial et le bureau du gouverneur, et est située dans la capitale homonyme, dans la République argentine. Histoire [modifier]. La précédente Maison du Gouvernement de Santiago del Estero avait été construite pour le Gouverneur",
+             "audio": "https://go-and-tour-term-1510986193752.appspot.com/audiofr3.mp3"
+         }
+     }
+ },
+ {
+    "id": 4,
+    "latitude": -27.483755780666343,
+    "longitude": -64.8678731918335,
+    "address": "Av. Libertador 1110",
+    "main_image": "https://housecall-api-dashboard.bridgepatientportal.com/mob/image4.png",
+    "multimedia": ["https://go-and-tour-term-1510986193752.appspot.com/img4.png"],
+    "langs": {
+        "es": {
+            "title": "Forum",
+            "description": "El Fórum Santiago del Estero, Centro de Convenciones y Exposiciones es un edificio ubicado en la ciudad de Santiago del Estero que está destinado a reuniones, congresos, seminarios y convenciones entre otros usos.",
+            "audio": "https://go-and-tour-term-1510986193752.appspot.com/audioen4.mp3"
+        },
+        "en": {
+            "title": "Forum",
+            "description": "The Santiago del Estero Forum, Convention and Exhibition Center is a building located in the city of Santiago del Estero that is intended for meetings, congresses, seminars and conventions among other uses.",
+            "audio": "https://go-and-tour-term-1510986193752.appspot.com/audioen4.mp3"
+        },
+        "fr": {
+            "title": "Forum",
+            "description": "Le Centre des Congrès, des Congrès et des Expositions de Santiago del Estero est un bâtiment situé dans la ville de Santiago del Estero, destiné à des réunions, des congrès, des séminaires et des conventions entre autres.",
+            "audio": "https://go-and-tour-term-1510986193752.appspot.com/audiofr4.mp3"
+        }
+    }
+  }
+]
