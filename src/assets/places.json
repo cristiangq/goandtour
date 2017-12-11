@@ -5,7 +5,8 @@
        "longitude": -64.85795974731445,
        "address": "Av. Libertador 1110",
        "main_image": "https://housecall-api-dashboard.bridgepatientportal.com/mob/image1.png",
-       "multimedia": ["https://go-and-tour-term-1510986193752.appspot.com/img1.png"],
+       "multimedia": ["https://housecall-api-dashboard.bridgepatientportal.com/mob/image1.png",
+       "https://housecall-api-dashboard.bridgepatientportal.com/mob/image2.png"],
        "langs": {
            "es": {
                "title": "Parque Oeste",
@@ -30,7 +31,7 @@
       "longitude": -64.8649549484253,
       "address": "Av. Libertador 1110",
       "main_image": "https://housecall-api-dashboard.bridgepatientportal.com/mob/image2.png",
-      "multimedia": ["https://go-and-tour-term-1510986193752.appspot.com/img2.png"],
+      "multimedia": ["https://housecall-api-dashboard.bridgepatientportal.com/mob/image2.png"],
       "langs": {
           "es": {
               "title": "Plaza Libertad",
@@ -55,7 +56,7 @@
      "longitude": -64.86203670501709,
      "address": "Av. Libertador 1110",
      "main_image": "https://housecall-api-dashboard.bridgepatientportal.com/mob/image3.png",
-     "multimedia": ["https://go-and-tour-term-1510986193752.appspot.com/img3.png"],
+     "multimedia": ["https://housecall-api-dashboard.bridgepatientportal.com/mob/image3.png"],
      "langs": {
          "es": {
              "title": "Casa de Gobierno",
@@ -80,7 +81,7 @@
     "longitude": -64.8678731918335,
     "address": "Av. Libertador 1110",
     "main_image": "https://housecall-api-dashboard.bridgepatientportal.com/mob/image4.png",
-    "multimedia": ["https://go-and-tour-term-1510986193752.appspot.com/img4.png"],
+    "multimedia": ["https://housecall-api-dashboard.bridgepatientportal.com/mob/image4.png"],
     "langs": {
         "es": {
             "title": "Forum",

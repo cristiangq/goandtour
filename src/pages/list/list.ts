@@ -28,8 +28,7 @@ export class ListPage {
 
   showDetail(item) {
       this.navCtrl.push('DetailPage', {
-        item: item,
-        tabsHideOnSubPages: true
+        item: item
       });
   }
 

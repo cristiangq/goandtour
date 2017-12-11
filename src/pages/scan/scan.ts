@@ -3,6 +3,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { TranslateService } from '@ngx-translate/core';
 import { BarcodeScanner } from '@ionic-native/barcode-scanner';
 import { Toast } from '@ionic-native/toast';
+import { PlacesProvider } from '../../providers/places/places';
 
 @IonicPage()
 @Component({
@@ -11,42 +12,48 @@ import { Toast } from '@ionic-native/toast';
 })
 export class ScanPage {
 
+  places: any;
+
   constructor(
         public navCtrl: NavController,
         public navParams: NavParams,
         public translateService: TranslateService,
         private barcodeScanner: BarcodeScanner,
+        public placesProvider: PlacesProvider,
         private toast: Toast
-) {
-
+  ) {
+    this.getPlaces();
   }
 
   scan() {
- // this.selectedProduct = {};
-  this.barcodeScanner.scan().then((qrData) => {
-      this.toast.show(qrData.text, '5000', 'center').subscribe(
-        toast => {
-          console.log(toast);
-        }
-      );
+    let notFound;
+    this.translateService.get(['SCAN_NOT_FOUND']).subscribe(values => {
+      notFound = values['SCAN_NOT_FOUND'];
+    });
 
-    /*this.selectedProduct = this.products.find(product => product.plu === qrData.text);
-    if(this.selectedProduct !== undefined) {
-      this.productFound = true;
-    } else {
-      this.productFound = false;
-      this.toast.show(`Product not found`, '5000', 'center').subscribe(
-        toast => {
-          console.log(toast);
-        }
-      );
-  }*/
-  }, (err) => {
-    this.toast.show(err, '5000', 'center').subscribe(
-      toast => {
-        console.log(toast);
+    this.barcodeScanner.scan().then((qrData) => {
+      let selectedPlaceId = qrData.text.split('#').shift();
+      let selectedPlace = this.places.find(place => place.id === selectedPlaceId);
+      if(selectedPlace !== undefined) {
+        this.showDetail(selectedPlace);
+      } else {
+        this.toast.show(notFound, '5000', 'center');
       }
-    );
-  });
-}
+    }, (err) => {
+      this.toast.show(err, '5000', 'center');
+    });
+  }
+
+  showDetail(item) {
+    this.navCtrl.push('DetailPage', {
+      item: item
+    });
+  }
+
+  getPlaces() {
+    this.placesProvider.getAll()
+    .then(data => {
+      this.places = data;
+    });
+  }
 }

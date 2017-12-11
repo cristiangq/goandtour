@@ -3,14 +3,11 @@ import { TranslateModule } from '@ngx-translate/core';
 import { IonicModule } from 'ionic-angular';
 
 import { MyHeaderComponent } from './my-header/my-header';
-import { MyCardComponent } from './my-card/my-card';
 
 @NgModule({
-	declarations: [MyHeaderComponent,
-    MyCardComponent],
+	declarations: [MyHeaderComponent],
 	imports: [IonicModule,
     TranslateModule.forChild()],
-	exports: [MyHeaderComponent,
-    MyCardComponent]
+	exports: [MyHeaderComponent]
 })
 export class ComponentsModule {}

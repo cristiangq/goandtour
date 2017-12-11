@@ -8,6 +8,9 @@
   "SCAN_TITLE": "Scan QR Code",
   "SCAN_DESCRIPTION": "Scan the QR code to get more information about the site you are visiting",
   "SCAN_BUTTON": "Scan",
+  "SCAN_NOT_FOUND": "Not Found",
+
+  "DETAIL_ADDRESS" : "Address",
 
   "TAB1_TITLE": "Map",
   "TAB2_TITLE": "List",

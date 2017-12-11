@@ -12,6 +12,7 @@ import { sysOptions } from '../../components/my-header/my-header.constants';
 })
 export class DetailPage {
   item: any;
+  placeImages: string[];
 
   constructor(
       public navCtrl: NavController,
@@ -19,9 +20,10 @@ export class DetailPage {
       public translateService: TranslateService
   ) {
       this.item = navParams.get('item');
+      this.placeImages = this.item.multimedia;
   }
 
-  getTitle(item) {
+  getTitle() {
     return this.item.langs[sysOptions.systemLanguage].title;
   }
 
