@@ -56,8 +56,8 @@ export class MapPage {
                   parseFloat(this.places[k].latitude),
                   parseFloat(this.places[k].longitude)
               );
-              var html = "<b>" + name + "</b> <br/>" + address;
-              var marker = this.createMarker(point, name, address, type, infoWindow, this.map);
+              
+              this.createMarker(point, name, address, type, infoWindow, this.map);
           }
       }
       this.events.publish("languageChanged");
