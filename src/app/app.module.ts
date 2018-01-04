@@ -6,6 +6,8 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { BarcodeScanner } from '@ionic-native/barcode-scanner';
 import { Toast } from '@ionic-native/toast';
 
+import { GoogleMaps } from '@ionic-native/google-maps';
+
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
@@ -47,7 +49,8 @@ export function createTranslateLoader(http: HttpClient) {
     BarcodeScanner,
     Toast,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
-    PlacesProvider
+    PlacesProvider,
+    GoogleMaps
   ]
 })
 export class AppModule {}

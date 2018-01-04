@@ -1,9 +1,17 @@
 import { Component, ViewChild, ElementRef } from '@angular/core';
-import { IonicPage, NavController, NavParams, Events } from 'ionic-angular';
+import { IonicPage, Platform, NavController, NavParams, Events } from 'ionic-angular';
 import { sysOptions, availableLanguages } from '../../components/my-header/my-header.constants';
 import { PlacesProvider } from '../../providers/places/places';
 
-declare var google;
+import {
+ GoogleMaps,
+ GoogleMap,
+ GoogleMapsEvent,
+ GoogleMapOptions,
+ LatLng,
+ MarkerOptions,
+ Marker
+} from '@ionic-native/google-maps';
 
 @IonicPage()
 @Component({
@@ -12,8 +20,9 @@ declare var google;
 })
 export class MapPage {
 
-  @ViewChild('map') mapElement: ElementRef;
-  map: any;
+  @ViewChild('map') element;
+  map: GoogleMap;
+
   places: any;
   markerGroups:any = {
     "es": [],
@@ -25,69 +34,83 @@ export class MapPage {
       public navCtrl: NavController,
       public navParams: NavParams,
       public placesProvider: PlacesProvider,
-      public events: Events
+      public events: Events,
+      public googleMaps: GoogleMaps,
+      public plt: Platform
   ) {
-      this.getPlaces();
       events.subscribe('languageChanged', () => {
            this.showMarkersForLanguage();
        });
   }
 
-  ionViewDidLoad(){
-    this.initMap();
+  ionViewDidLoad() {
+    this.getPlaces();
   }
 
   initMap() {
-    this.map = new google.maps.Map(this.mapElement.nativeElement, {
-      zoom: 14,
-      center: {lat: -27.50, lng: -64.86}
+    let mapOptions: GoogleMapOptions = {
+          camera: {
+            target: {
+              lat: -27.50,
+              lng: -64.86
+            },
+            zoom: 14,
+            tilt: 30
+          }
+    };
+
+    this.map = GoogleMaps.create('map', mapOptions);
+
+    this.map.one(GoogleMapsEvent.MAP_READY).then(() => {
+      console.log("map is ready to use.");
+
+      // Puts random markers on the map.
+      this.addMarkerForPlaces();
     });
   }
 
   addMarkerForPlaces() {
-      var infoWindow = new google.maps.InfoWindow();
       for (let k in this.places) {
           for (let l in this.places[k].langs) {
               var name = this.places[k].langs[l].title;
-              var address = this.places[k].address;
               var type = l;
 
-              var point = new google.maps.LatLng(
+              let coordinates: LatLng = new LatLng(
                   parseFloat(this.places[k].latitude),
                   parseFloat(this.places[k].longitude)
               );
-              
-              this.createMarker(point, name, address, type, infoWindow, this.map);
+
+              this.createMarker(coordinates, name, type, this.places[k]);
           }
       }
-      this.events.publish("languageChanged");
   }
 
-  createMarker(point, name, address, type, infoWindow, map) {
-    //var icon = customIcons[type] || {};
-    var marker = new google.maps.Marker({
-        map: map,
+  createMarker(point, name, type, item) {
+
+      //icon: "assets/images/icons8-Marker-64.png",
+    let markerOptions: MarkerOptions = {
         position: point,
-        //icon: icon.icon,
-        // shadow: icon.shadow,
+        title: name,
+        infoClick: () => {
+            this.navCtrl.push('DetailPage', {
+              item: item
+            });
+        },
         type: type
-    });
+    };
+
     if (!this.markerGroups[type]){
         this.markerGroups[type] = [];
     }
-    this.markerGroups[type].push(marker);
-    var html = "<b>" + name + "</b> <br/>" + address;
-    this.bindInfoWindow(marker, html, infoWindow, map);
-    return marker;
-  }
 
-  bindInfoWindow(marker, html, infoWindow, map) {
-    google.maps.event.addListener(marker, 'click', function () {
-        infoWindow.setContent(html);
-        infoWindow.open(map, marker);
-    });
-  }
+    const marker = this.map.addMarker(markerOptions)
+      .then((marker: Marker) => {
+        marker.showInfoWindow();
+        this.markerGroups[type].push(marker);
+      });
 
+    //this.markerGroups[type].push(marker);
+  }
 
   showMarkersForLanguage() {
       for (let k in availableLanguages) {
@@ -106,7 +129,7 @@ export class MapPage {
     this.placesProvider.getAll()
     .then(data => {
       this.places = data;
-      this.addMarkerForPlaces();
+      this.initMap();
     });
   }
 }
