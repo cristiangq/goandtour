@@ -1,4 +1,4 @@
-import { Component, ViewChild, ElementRef } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
 import { IonicPage, Platform, NavController, NavParams, Events } from 'ionic-angular';
 import { sysOptions, availableLanguages } from '../../components/my-header/my-header.constants';
 import { PlacesProvider } from '../../providers/places/places';
@@ -62,40 +62,32 @@ export class MapPage {
     this.map = GoogleMaps.create('map', mapOptions);
 
     this.map.one(GoogleMapsEvent.MAP_READY).then(() => {
-      console.log("map is ready to use.");
-
-      // Puts random markers on the map.
       this.addMarkerForPlaces();
+      this.showMarkersForLanguage();
     });
   }
 
   addMarkerForPlaces() {
-      for (let k in this.places) {
-          for (let l in this.places[k].langs) {
-              var name = this.places[k].langs[l].title;
-              var type = l;
+    for (let k in this.places) {
+      for (let l in this.places[k].langs) {
+        var name = this.places[k].langs[l].title;
+        var type = l;
 
-              let coordinates: LatLng = new LatLng(
-                  parseFloat(this.places[k].latitude),
-                  parseFloat(this.places[k].longitude)
-              );
+        let coordinates: LatLng = new LatLng(
+          parseFloat(this.places[k].latitude),
+          parseFloat(this.places[k].longitude)
+        );
 
-              this.createMarker(coordinates, name, type, this.places[k]);
-          }
+        this.createMarker(coordinates, name, type, this.places[k]);
       }
+    }
   }
 
   createMarker(point, name, type, item) {
-
       //icon: "assets/images/icons8-Marker-64.png",
     let markerOptions: MarkerOptions = {
         position: point,
         title: name,
-        infoClick: () => {
-            this.navCtrl.push('DetailPage', {
-              item: item
-            });
-        },
         type: type
     };
 
@@ -103,13 +95,16 @@ export class MapPage {
         this.markerGroups[type] = [];
     }
 
-    const marker = this.map.addMarker(markerOptions)
+    this.map.addMarker(markerOptions)
       .then((marker: Marker) => {
-        marker.showInfoWindow();
         this.markerGroups[type].push(marker);
-      });
-
-    //this.markerGroups[type].push(marker);
+        marker.on(GoogleMapsEvent.INFO_CLICK)
+          .subscribe(() => {
+            this.navCtrl.push('DetailPage', {
+              item: item
+            });
+          });
+    });
   }
 
   showMarkersForLanguage() {

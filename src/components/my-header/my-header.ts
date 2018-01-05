@@ -16,7 +16,10 @@ export class MyHeaderComponent {
       public translateService: TranslateService,
       public events: Events
   ) {
-
+      events.subscribe('languageChanged', () => {
+          this.currentLanguage = sysOptions.systemLanguage;
+          this.translateService.use(sysOptions.systemLanguage);
+       });
   }
 
   showRadio() {
