@@ -13,6 +13,19 @@
         <img class="thumb-img" [src]="img" imageViewer/>
       </ion-slide>
     </ion-slides>
+
+    <audio-track #audioTrack [track]="currentTrack" [autoplay]="false">
+      <div style="display: flex">
+        <button ion-button icon-only (click)="play()"><ion-icon name="play"></ion-icon></button>
+        <button ion-button icon-only (click)="pause()"><ion-icon name="pause"></ion-icon></button>
+
+        <audio-track-progress-bar dark duration progress [audioTrack]="currentTrack"></audio-track-progress-bar>
+      </div>
+      <div style="display: flex; justify-content: center; height: 50px">
+        <ion-spinner *ngIf="audioTrack && audioTrack.isLoading"></ion-spinner>
+      </div>
+    </audio-track>
+
     <ion-card-content>
     <p [innerText]="getDescription()"></p>
     <p class="address"><b>{{ 'DETAIL_ADDRESS' | translate }}:</b> {{ item.address }}</p>
