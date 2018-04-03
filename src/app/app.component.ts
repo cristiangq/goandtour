@@ -26,15 +26,16 @@ export class MyApp {
       // Here you can do any higher level native things you might need.
       statusBar.styleDefault();
       splashScreen.hide();
+      this.translate.use(sysOptions.systemLanguage);
     });
     this.initTranslate();
   }
 
   initTranslate() {
-      // force load all languajes
-      for (let k in availableLanguages) {
-          this.translate.use(availableLanguages[k].code);
-      }
+    // force load all languajes
+    for (let k in availableLanguages) {
+      this.translate.use(availableLanguages[k].code);
+    }
 
     if (this.translate.getBrowserLang() !== undefined) {
       var language = this.getSuitableLanguage(this.translate.getBrowserLang());
