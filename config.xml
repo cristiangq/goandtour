@@ -98,7 +98,7 @@
         <variable name="UPDATE_API" value="https://api.ionicjs.com" />
         <variable name="MAX_STORE" value="2" />
     </plugin>
+    <plugin name="uk.co.workingedge.phonegap.plugin.launchnavigator" spec="^4.2.0" />
     <engine name="android" spec="7.0.0" />
     <engine name="browser" spec="5.0.3" />
-    <plugin name="uk.co.workingedge.phonegap.plugin.launchnavigator" spec="^4.2.0" />
 </widget>

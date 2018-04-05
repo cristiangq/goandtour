@@ -1,19 +1,19 @@
 {
-  "BACK_BUTTON_TEXT": "Back",
+  "BACK_BUTTON_TEXT": "Voltar",
 
-  "SELECT_LANGUAGE_TITLE": "Choose Language",
-  "SELECT_LANGUAGE_OK": "Ok",
-  "SELECT_LANGUAGE_CANCEL": "Cancel",
+  "SELECT_LANGUAGE_TITLE": "Selecione o idioma",
+  "SELECT_LANGUAGE_OK": "Selecione",
+  "SELECT_LANGUAGE_CANCEL": "Cancelar",
 
-  "SCAN_TITLE": "Scan QR Code",
-  "SCAN_DESCRIPTION": "Scan the QR code to get more information about the site you are visiting",
-  "SCAN_BUTTON": "Scan",
-  "SCAN_NOT_FOUND": "Not Found",
+  "SCAN_TITLE": "Escanear Código QR",
+  "SCAN_DESCRIPTION": "Escanea el codigo QR para obter mais informações sobre o site que você está visitando",
+  "SCAN_BUTTON": "Escanear",
+  "SCAN_NOT_FOUND": "Ñao Encontrado",
 
-  "DETAIL_ADDRESS" : "Address",
-  "DETAIL_PHONE" : "Phone",
+  "DETAIL_ADDRESS" : "direção",
+  "DETAIL_PHONE" : "Telefone",
 
-  "TAB1_TITLE": "Map",
-  "TAB2_TITLE": "List",
-  "TAB3_TITLE": "Scan"
+  "TAB1_TITLE": "Mapa",
+  "TAB2_TITLE": "Lista",
+  "TAB3_TITLE": "Escanear"
 }
