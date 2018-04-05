@@ -3,9 +3,9 @@
 </ion-header>
 
 <ion-content>
-  <ion-card *ngFor="let place of places" (click)="showDetail(place)" >
-    <img [src]="place.main_image" />
-    <div class="card-title" [innerText]="getTitle(place)"></div>
-    <div class="card-subtitle">{{place.address}}</div>
+  <ion-card *ngFor="let place of places" (click)="showDetail(place)">
+    <img [src]="place.main_image"/>
+    <div [innerText]="getTitle(place)" class="card-title"></div>
+    <div class="card-subtitle">{{place.address || ''}}</div>
   </ion-card>
 </ion-content>

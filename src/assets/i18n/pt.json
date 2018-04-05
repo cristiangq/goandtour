@@ -1,11 +1,19 @@
 {
-  "NAME": "Nom",
-  "PASSWORD": "Mot de passe",
-  "EMAIL": "E-mail",
-  "LOGIN": "Connexion",
-  "SIGNUP": "Inscription",
+  "BACK_BUTTON_TEXT": "Back",
 
-  "TAB1_TITLE": "Items",
-  "TAB2_TITLE": "Recherche",
-  "TAB3_TITLE": "Paramètres"
+  "SELECT_LANGUAGE_TITLE": "Choose Language",
+  "SELECT_LANGUAGE_OK": "Ok",
+  "SELECT_LANGUAGE_CANCEL": "Cancel",
+
+  "SCAN_TITLE": "Scan QR Code",
+  "SCAN_DESCRIPTION": "Scan the QR code to get more information about the site you are visiting",
+  "SCAN_BUTTON": "Scan",
+  "SCAN_NOT_FOUND": "Not Found",
+
+  "DETAIL_ADDRESS" : "Address",
+  "DETAIL_PHONE" : "Phone",
+
+  "TAB1_TITLE": "Map",
+  "TAB2_TITLE": "List",
+  "TAB3_TITLE": "Scan"
 }

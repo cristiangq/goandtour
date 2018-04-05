@@ -8,6 +8,8 @@ import { Toast } from '@ionic-native/toast';
 
 import { GoogleMaps } from '@ionic-native/google-maps';
 
+import { LaunchNavigator } from '@ionic-native/launch-navigator';
+
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
@@ -50,7 +52,8 @@ export function createTranslateLoader(http: HttpClient) {
     Toast,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     PlacesProvider,
-    GoogleMaps
+    GoogleMaps,
+    LaunchNavigator
   ],
   schemas: [ CUSTOM_ELEMENTS_SCHEMA ]
 })

@@ -4,29 +4,34 @@
 
 <ion-content>
   <ion-card>
-    <ion-card-header>
+    <ion-card-header text-wrap>
       <h1 [innerText]="getTitle()"></h1>
     </ion-card-header>
 
-    <ion-slides *ngIf="placeImages.length > 1" pager="true">
+    <ion-slides *ngIf="placeImages.length > 0" pager="true">
       <ion-slide *ngFor="let img of placeImages">
         <img class="thumb-img" [src]="img" imageViewer/>
       </ion-slide>
     </ion-slides>
 
-    <audio controls="controls" controlsList="nodownload">
-      <source [src]="getAudio('leyenda')" type="audio/mpeg"/>
+    <audio controls="controls" controlsList="nodownload" preload="auto">
+      <source [src]="getAudio()" type="audio/mpeg"/>
     </audio>
 
     <ion-card-content>
       <p [innerText]="getDescription()"></p>
       <p class="address">
         <b>{{ 'DETAIL_ADDRESS' | translate }}:</b>
-        {{ item.address }}</p>
-      <ion-fab right bottom>
-        <a href="https://www.google.com/maps/dir/?api=1&destination=Av+Libertador+1110+santiago+del+estero" ion-fab color="primary">
+        {{ item.address }}
+      </p>
+      <p *ngIf="item.phone" class="phone">
+        <b>{{ 'DETAIL_PHONE' | translate }}:</b>
+        {{ item.phone }}
+      </p>
+      <ion-fab *ngIf="item.latitude" right bottom>
+        <button ion-fab color="light" (click)="goMap()">
           <ion-icon name="navigate"></ion-icon>
-        </a>
+        </button>
       </ion-fab>
     </ion-card-content>
   </ion-card>
