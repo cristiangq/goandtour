@@ -1,103 +1,551 @@
 [
     {
-       "id": 1,
-       "latitude": -27.496242686015005,
-       "longitude": -64.85795974731445,
-       "address": "Av. Libertador 1110",
-       "main_image": "https://housecall-api-dashboard.bridgepatientportal.com/mob/image1.png",
-       "multimedia": ["https://housecall-api-dashboard.bridgepatientportal.com/mob/image1.png",
-       "https://housecall-api-dashboard.bridgepatientportal.com/mob/image2.png"],
+       "id": 0,
+       "main_image": "http://goandtour.com/trh/main/0-termalismo",
+       "multimedia": ["http://goandtour.com/trh/places/0-termalismo"],
        "langs": {
            "es": {
-               "title": "Parque Oeste",
-               "description": "Este renovado y moderno parque aloja el edificion del honorable consejo deliberantes de la ciudad y el teatro del pueblo y el centro cultutal ricardo rojas.",
-               "audio": "https://go-and-tour-term-1510986193752.appspot.com/audioen1.mp3"
+               "title": "Termalismo",
+               "description": "Afirma uno de los mayores estudiosos de las aguas de Las Termas de Río Hondo, que el agua medicinal es de eficacia indiscutible en ciertas afecciones, está constatado por la composición del agua y comprobado en la aplicación",
+               "audio": "http://goandtour.com/trh/audios/es/0.mp3"
            },
            "en": {
-               "title": "West Park",
-               "description": "This renovated and modern park houses the building of the honorable deliberative council of the city and the theater of the village and the red cultural center Ricardo.",
-               "audio": "https://go-and-tour-term-1510986193752.appspot.com/audioen1.mp3"
+               "title": "Thermalism",
+               "description": "This ",
+               "audio": "http://goandtour.com/trh/audios/en/0.mp3"
            },
-           "fr": {
-               "title": "West Park",
-               "description": "Ce parc rénové et moderne abrite le bâtiment de l'honorable conseil délibératif de la ville et le théâtre du village et le centre culturel rouge Ricardo.",
-               "audio": "https://go-and-tour-term-1510986193752.appspot.com/audiofr1.mp3"
+           "pt": {
+               "title": "Termalismo",
+               "description": "Ce ",
+               "audio": "http://goandtour.com/trh/audios/pt/0.mp3"
            }
        }
    },
    {
-      "id": 2,
-      "latitude": -27.497917650956726,
-      "longitude": -64.8649549484253,
-      "address": "Av. Libertador 1110",
-      "main_image": "https://housecall-api-dashboard.bridgepatientportal.com/mob/image2.png",
-      "multimedia": ["https://housecall-api-dashboard.bridgepatientportal.com/mob/image2.png"],
+      "id": 1,
+      "icon": "1.png",
+      "latitude": -27.501289,
+      "longitude": -64.859005,
+      "address": "Lascano y Ejercito del Norte",
+      "main_image": "http://goandtour.com/trh/main/1-salud.jpg",
+      "multimedia": ["http://goandtour.com/trh/places/1-salud.jpg"],
       "langs": {
           "es": {
-              "title": "Plaza Libertad",
-              "description": "La Plaza Libertad es una plaza pública que se encuentra en el barrio Retiro de la ciudad de Buenos Aires. Ubicada sobre la calle Cerrito, junto a la Avenida 9 de Julio, tiene sobre uno de sus costados al Teatro Coliseo, al moderno Edificio Libertad Plaza y bajo tierra funciona un estacionamiento municipal. ",
-              "audio": "https://go-and-tour-term-1510986193752.appspot.com/audioen2.mp3"
+              "title": "Salud Termal - Duchas",
+              "description": "La duchas termales son un novedoso servicio que brinda la Municipalidad de Las Termas de Río Hondo. Todos estos tratamientos se realizan bajo control medico termalista.",
+              "audio": "http://goandtour.com/trh/audios/es/1.mp3"
           },
           "en": {
-              "title": "Liberty Square",
-              "description": "The Plaza Libertad is a public square that is located in the Retiro neighborhood of the city of Buenos Aires. Located on Cerrito Street, next to 9 de Julio Avenue, it has on one of its sides the Teatro Coliseo, the modern Libertad Plaza Building and underground a municipal parking lot.",
-              "audio": "https://go-and-tour-term-1510986193752.appspot.com/audioen2.mp3"
+              "title": "Thermal Health - showers",
+              "description": "The thermal showers are a new service offered by the Municipality of Termas de Rio Hondo. Consists of different techniques and applications of mineral and medicinal water, wich are done under medical control.",
+              "audio": "http://goandtour.com/trh/audios/es/1.mp3"
           },
-          "fr": {
-              "title": "Place de la Liberté",
-              "description": "La Plaza Libertad est une place publique qui se trouve dans le quartier Retiro de la ville de Buenos Aires. Situé sur la rue Cerrito, à côté de l'avenue 9 de Julio, il possède sur un de ses côtés le Teatro Coliseo, le moderne Libertad Plaza Building et un parking municipal souterrain.",
-              "audio": "https://go-and-tour-term-1510986193752.appspot.com/audiofr2.mp3"
+          "pt": {
+              "title": "Saude Termal - Chuveiros",
+              "description": "La ",
+              "audio": "http://goandtour.com/trh/audios/es/1.mp3"
           }
       }
   },
   {
-     "id": 3,
-     "latitude": -27.500734579971486,
-     "longitude": -64.86203670501709,
-     "address": "Av. Libertador 1110",
-     "main_image": "https://housecall-api-dashboard.bridgepatientportal.com/mob/image3.png",
-     "multimedia": ["https://housecall-api-dashboard.bridgepatientportal.com/mob/image3.png"],
+     "id": 2,
+     "icon": "2.png",
+     "latitude": -27.503628,
+     "longitude": -64.858368,
+     "address": "Av. Costanera",
+     "main_image": "http://goandtour.com/trh/main/2-la-olla.jpg",
+     "multimedia": ["http://goandtour.com/trh/places/2-la-olla.jpg"],
      "langs": {
          "es": {
-             "title": "Casa de Gobierno",
-             "description": "La Casa de Gobierno de la Provincia de Santiago del Estero es la sede del Poder Ejecutivo Provincial y la oficina del Gobernador, y se encuentra en la capital homónima, dentro de la República Argentina. Historia[editar]. La anterior Casa de Gobierno de Santiago del Estero había sido construida para el Gobernador",
-             "audio": "https://go-and-tour-term-1510986193752.appspot.com/audioen3.mp3"
+             "title": "Salud Termal - La Olla",
+             "description": "La Olla, es el balneario municipal más antiguo de la ciudad de Las Termas de Río Hondo. Un atractivo tradicional donde cada temporada de invierno se congregan visitantes y residentes a disfrutar del agua termal.",
+             "audio": "http://goandtour.com/trh/audios/es/2.mp3"
          },
          "en": {
-             "title": "Goverment house",
-             "description": "The Government House of the Province of Santiago del Estero is the seat of the Provincial Executive Power and the office of the Governor, and is located in the homonymous capital, within the Argentine Republic. History [edit]. The previous Government House of Santiago del Estero had been built for the Governor",
-             "audio": "https://go-and-tour-term-1510986193752.appspot.com/audioen3.mp3"
+             "title": "Thermal Health - The Pot",
+             "description": "Its the only natural slope of outdoor thermal water. It is located near the river and shapes a big pool of dirt floor. It`s waters reach a temperature of 30 °C and above.",
+             "audio": "http://goandtour.com/trh/audios/es/2.mp3"
          },
-         "fr": {
-             "title": "Maison du gouvernement",
-             "description": "La Maison du gouvernement de la province de Santiago del Estero est le siège du pouvoir exécutif provincial et le bureau du gouverneur, et est située dans la capitale homonyme, dans la République argentine. Histoire [modifier]. La précédente Maison du Gouvernement de Santiago del Estero avait été construite pour le Gouverneur",
-             "audio": "https://go-and-tour-term-1510986193752.appspot.com/audiofr3.mp3"
+         "pt": {
+             "title": "Saúde Termal- La Olla",
+             "description": "É a única fonte natural de água termal ao ar livre, a mesma  está localizada perto do rio e forma uma grande piscina com um piso de terra, cujas águas estão a 30 ° C e ainda temperaturas mais elevadas.",
+             "audio": "http://goandtour.com/trh/audios/es/2.mp3"
          }
      }
- },
- {
-    "id": 4,
-    "latitude": -27.483755780666343,
-    "longitude": -64.8678731918335,
-    "address": "Av. Libertador 1110",
-    "main_image": "https://housecall-api-dashboard.bridgepatientportal.com/mob/image4.png",
-    "multimedia": ["https://housecall-api-dashboard.bridgepatientportal.com/mob/image4.png"],
-    "langs": {
-        "es": {
-            "title": "Forum",
-            "description": "El Fórum Santiago del Estero, Centro de Convenciones y Exposiciones es un edificio ubicado en la ciudad de Santiago del Estero que está destinado a reuniones, congresos, seminarios y convenciones entre otros usos.",
-            "audio": "https://go-and-tour-term-1510986193752.appspot.com/audioen4.mp3"
-        },
-        "en": {
-            "title": "Forum",
-            "description": "The Santiago del Estero Forum, Convention and Exhibition Center is a building located in the city of Santiago del Estero that is intended for meetings, congresses, seminars and conventions among other uses.",
-            "audio": "https://go-and-tour-term-1510986193752.appspot.com/audioen4.mp3"
-        },
-        "fr": {
-            "title": "Forum",
-            "description": "Le Centre des Congrès, des Congrès et des Expositions de Santiago del Estero est un bâtiment situé dans la ville de Santiago del Estero, destiné à des réunions, des congrès, des séminaires et des conventions entre autres.",
-            "audio": "https://go-and-tour-term-1510986193752.appspot.com/audiofr4.mp3"
-        }
-    }
+  },
+  {
+     "id": 3,
+     "icon": "3.png",
+     "latitude": -27.499556,
+     "longitude": -64.862206,
+     "address": "Parque Guemes, Libertad 150",
+     "main_image": "http://goandtour.com/trh/main/3-spa.jpg",
+     "multimedia": ["http://goandtour.com/trh/places/3-spa.jpg"],
+     "langs": {
+         "es": {
+             "title": "Salud Termal - Centro de Salud Termal",
+             "description": "Centro medico de orientación termal, ubicado en el parque Guemes. Ofrece servicios de relajación, terapias para la salud y estetica, además de piscinas termales al aire libre",
+             "audio": "http://goandtour.com/trh/audios/es/3.mp3"
+         },
+         "en": {
+             "title": "Thermal Health - Medical Center",
+             "description": "This center is located in the Guemes park. It offers treatments with mineral-medicinal waters to neurological, antirheumatic, circulatory, dermatological and esthetic therapies.",
+             "audio": "http://goandtour.com/trh/audios/es/3.mp3"
+         },
+         "pt": {
+             "title": "Saúde Termal- Medical Center",
+             "description": "La ",
+             "audio": "http://goandtour.com/trh/audios/es/3.mp3"
+         }
+     }
+  },
+  {
+     "id": 4,
+     "icon": "4.png",
+     "latitude": -27.506477,
+     "longitude": -64.933172,
+     "address": "Club Naútico",
+     "phone": "03858 42-7040",
+     "main_image": "http://goandtour.com/trh/main/4-deportes-nauticos.jpg",
+     "multimedia": ["http://goandtour.com/trh/places/4-deportes-nauticos.jpg"],
+     "langs": {
+         "es": {
+             "title": "Deportes naúticos",
+             "description": "El deporte náutico es el deporte pionero en Las Termas de Río Hondo, se practica de diversos modos: regatas, canotaje, windsurf, kitsurf, buceo flubiolacustre, entre otros.",
+             "audio": "http://goandtour.com/trh/audios/es/4.mp3"
+         },
+         "en": {
+             "title": "Nautical Sports",
+             "description": "The Nautical sport are the pioneered sports in Las Termas de Río Hondo. iI is practiced in various ways: sailing, canoeing, windsurf, kitesurf, fluvio-lacustrine diving, among others.",
+             "audio": "http://goandtour.com/trh/audios/es/4.mp3"
+         },
+         "pt": {
+             "title": "Tour Aeronautico",
+             "description": "La ",
+             "audio": "http://goandtour.com/trh/audios/es/4.mp3"
+         }
+     }
+  },
+  {
+     "id": 5,
+     "icon": "5.png",
+     "latitude": -27.511926,
+     "longitude": -64.920381,
+     "address": "Autodromo",
+     "phone": "0385 421-8606",
+     "main_image": "http://goandtour.com/trh/main/5-autodromo.jpg",
+     "multimedia": ["http://goandtour.com/trh/places/5-autodromo.jpg"],
+     "langs": {
+         "es": {
+             "title": "Autódromo - Carreras automovilísticas y de motocicleta",
+             "description": "El Autódromo Termas de Rio Hondo fue inaugurado en mayo de 2008, con la apertura del Turismo Carretera. Las Termas presenta el Circuito Internacional de deportes automovilísticos con el Moto GP, y las mejores categorías nacionales de Turismo Carretera, TC 2000 y Súper TC 2000, Turismo Nacional, Top Race y otras categorías zonales.",
+             "audio": "http://goandtour.com/trh/audios/es/5.mp3"
+         },
+         "en": {
+             "title": "Racetrack - car and motorcycle racing",
+             "description": "The Termas de Río Hondo Racetrack was inaugurated in May, 2008, with the opening of the Tourism Cars. Today is the seat for international events like Moto GP and the most important national categories: TC 2000, Super TC 2000, Turismo Nacional, Top Race, and others.",
+             "audio": "http://goandtour.com/trh/audios/es/5.mp3"
+         },
+         "pt": {
+             "title": "S",
+             "description": "La ",
+             "audio": "http://goandtour.com/trh/audios/es/5.mp3"
+         }
+     }
+  },
+  {
+     "id": 6,
+     "icon": "6.png",
+     "latitude": -27.505850,
+     "longitude": -64.864712,
+     "address": "Rio Hondo Golf Club, Av. Costanera.",
+     "phone": "03858 15-40-7521",
+     "main_image": "http://goandtour.com/trh/main/6-campo-golf.jpg",
+     "multimedia": ["http://goandtour.com/trh/places/6-campo-golf.jpg"],
+     "langs": {
+         "es": {
+             "title": "Campos de Golf",
+             "description": "El lugar elegido para jugar golf es el Río Hondo Golf Club, que se encuentra ubicado a solo 2 km del centro de la ciudad con una cancha de 9 hoyos. En 2010, la ciudad fue escenario del Primer Abierto de Golf de Termas de Rio Hondo.",
+             "audio": "http://goandtour.com/trh/audios/es/6.mp3"
+         },
+         "en": {
+             "title": "Golf Courses",
+             "description": "The best place to play golf in Termas is The Rio Hondo Golf Club, which is located only 2 km from downtown, and possesses a field with 9 holes. In 2010, the city hosted the first Open Golf Tournament of Termas de Rio Hondo.",
+             "audio": "http://goandtour.com/trh/audios/es/6.mp3"
+         },
+         "pt": {
+             "title": "Torneios de golfe",
+             "description": "La ",
+             "audio": "http://goandtour.com/trh/audios/es/6.mp3"
+         }
+     }
+  },
+  {
+     "id": 7,
+     "icon": "7.png",
+     "latitude": -27.494801,
+     "longitude": -64.867348,
+     "address": "Av. Manuel Belgrano entre Santa Fé y Córdoba",
+     "main_image": "http://goandtour.com/trh/main/7-festivales.jpg",
+     "multimedia": ["http://goandtour.com/trh/places/7-festivales.jpg"],
+     "langs": {
+         "es": {
+             "title": "Festivales",
+             "description": "Termas tiene marcas registradas y lo demuestra año a año en sus exitosos eventos. Uno es el Festival Nacional del Canasto, que exhibe el milenario arte de trabajar la fibra vegetal para lograr excepcionales elementos de cestería en variedad de formas y colores. Otro de ellos es el Festival del Cabrito, donde se une desde la degustación del cabrito gourmet hasta el tradicional cabrito a la parrilla, con una extraordinaria agenda artística de compañia.",
+             "audio": "http://goandtour.com/trh/audios/es/7.mp3"
+         },
+         "en": {
+             "title": "Festivals",
+             "description": "Termas has its festive icons and its success is demonstrated every year. One of them is the National Festival del Canasto or Basket Festival, wich shows the ancient art of working with vegetable fiber to make a variety of baskets. Other one is the Festival del Cabrito or Goat Festival, where you can enjoy from a gourmet meat dish of goat to the traditional roasted goat, with the company of an extraordinary artistic agenda.",
+             "audio": "http://goandtour.com/trh/audios/es/7.mp3"
+         },
+         "pt": {
+             "title": "S",
+             "description": "La ",
+             "audio": "http://goandtour.com/trh/audios/es/7.mp3"
+         }
+     }
+  },
+  {
+     "id": 8,
+     "icon": "8.png",
+     "latitude": -27.498125,
+     "longitude": -64.860655,
+     "address": "Rivadavia 57",
+     "phone": "03858 42-3426",
+     "main_image": "http://goandtour.com/trh/main/8-casino.jpg",
+     "multimedia": ["http://goandtour.com/trh/places/8-casino.jpg"],
+     "langs": {
+         "es": {
+             "title": "Casino",
+             "description": "El Casino de Las Termas de Río Hondo es uno de los casinos más antiguos de la región. Su construcción data del año 1943 con un estilo colonial en su fachada, además de una moderna y lujosa estructura en su interior.",
+             "audio": "http://goandtour.com/trh/audios/es/8.mp3"
+         },
+         "en": {
+             "title": "Casino",
+             "description": "The Casino of Rio Hondo is one of the oldest casinos of the region. Its construction dates from year 1943 and features a colonial style and a modern and luxurious structure in its interior.",
+             "audio": "http://goandtour.com/trh/audios/es/8.mp3"
+         },
+         "pt": {
+             "title": "S",
+             "description": "La ",
+             "audio": "http://goandtour.com/trh/audios/es/8.mp3"
+         }
+     }
+  },
+  {
+     "id": 9,
+     "icon": "9.png",
+     "latitude": -27.499105,
+     "longitude": -64.861293,
+     "address": "Entre Av. Juan B. Alberdi y Av. Juan M. Belgrano",
+     "main_image": "http://goandtour.com/trh/main/9-parque-guemes.jpg",
+     "multimedia": ["http://goandtour.com/trh/places/9-parque-guemes.jpg"],
+     "langs": {
+         "es": {
+             "title": "Parque Güemes",
+             "description": "Este parque es el corazón de Las Termas, atractivo que los visitantes disfrutan por sus arboledas, sus instalaciones y actividades permanentemente para toda la familia. Esta ubicado en el paso de la Ruta Nacional 9, y la Av. Manuel Belgrano, frente a la Plaza San Martín y el Casino.",
+             "audio": "http://goandtour.com/trh/audios/es/9.mp3"
+         },
+         "en": {
+             "title": "Guemes Park",
+             "description": "This park is the heart of Termas, attractive that the visitors enjoy by its woods, its facilities and often social family activities. It is located in the National Route 9 passage, and Manuel Belgrano Avenue, in front of the San Martin Plaza and the Casino.",
+             "audio": "http://goandtour.com/trh/audios/es/9.mp3"
+         },
+         "pt": {
+             "title": "S",
+             "description": "La ",
+             "audio": "http://goandtour.com/trh/audios/es/9.mp3"
+         }
+     }
+  },
+  {
+     "id": 10,
+     "icon": "10.png",
+     "latitude": -27.520471,
+     "longitude": -64.888230,
+     "address": "Embalse Rio Hondo",
+     "main_image": "http://goandtour.com/trh/main/10-lago-rio-hondo.jpg",
+     "multimedia": ["http://goandtour.com/trh/places/10-lago-rio-hondo.jpg"],
+     "langs": {
+         "es": {
+             "title": "Lago del Embalse Rio Hondo",
+             "description": "El Lago Frontal, es uno de los sitios más bonitos e inolvidables que tiene Las Termas de Rio Hondo. Este espejo de agua de 19km de largo y 17km de ancho alberga peces grandes y medianos, como dorados, bogas, bagres, tarariras, sábalos, pejerreyes y otros peces regionales.",
+             "audio": "http://goandtour.com/trh/audios/es/10.mp3"
+         },
+         "en": {
+             "title": "Rio Hondo Lake Reservoir",
+             "description": "The Lago Frontal (Frontal Lake), is one of the prettiest, and most unforgettable sites that Termas can offer. This lake features a 19km long, 17 km wide water-mirror, which houses big and medium local fish, like dorados, bogas, catfishes, tarariras, sábalos and pejerreyes among others.",
+             "audio": "http://goandtour.com/trh/audios/es/10.mp3"
+         },
+         "pt": {
+             "title": "Lago da Barragem Rio Hondo",
+             "description": "La ",
+             "audio": "http://goandtour.com/trh/audios/es/10.mp3"
+         }
+     }
+  },
+  {
+     "id": 11,
+     "icon": "11.png",
+     "latitude": -27.522710,
+     "longitude": -64.886542,
+     "address": "Dique Frontal, por Av. Costanera",
+     "main_image": "http://goandtour.com/trh/main/11-dique.jpg",
+     "multimedia": ["http://goandtour.com/trh/places/11-dique.jpg"],
+     "langs": {
+         "es": {
+             "title": "Dique Frontal",
+             "description": "El Dique Frontal es sin duda una de las grandes obras de ingenieria realizadas en la provincia de Santiago del Estero. La gran importancia de este sitio es reconocida a nivel nacional.",
+             "audio": "http://goandtour.com/trh/audios/es/11.mp3"
+         },
+         "en": {
+             "title": "Frontal Mole",
+             "description": "The Dique frontal is without a doubt, one of the most amazing engineering projects achieved in the province of Santiago del Estero. The great relevance of this place is recognized at national level.",
+             "audio": "http://goandtour.com/trh/audios/es/11.mp3"
+         },
+         "pt": {
+             "title": "Dique de Contenção",
+             "description": "La ",
+             "audio": "http://goandtour.com/trh/audios/es/11.mp3"
+         }
+     }
+  },
+  {
+     "id": 12,
+     "icon": "12.png",
+     "latitude": -27.516611,
+     "longitude": -64.883314,
+     "address": "Isla Tara Inti",
+     "main_image": "http://goandtour.com/trh/main/12-tara-inti.jpg",
+     "multimedia": ["http://goandtour.com/trh/places/12-tara-inti.jpg"],
+     "langs": {
+         "es": {
+             "title": "Reserva Natural Tara Inti",
+             "description": "La Reserva Natural Tara Inti, se encuentra situada en el medio del Rio Dulce, a orillas de la nueva costanera y del Dique Frontal. Este sitio cuenta con una amplia superficie de más de 20 hectáreas donde se puede disfrutar de gran diversidad natural, realizar paseos y actividades recreativas para toda la familia.",
+             "audio": "http://goandtour.com/trh/audios/es/12.mp3"
+         },
+         "en": {
+             "title": "Tara Inti Natural Reserve",
+             "description": "The Tara Inti Natural Reserve is located in the middle of the Rio Dulce, in the shore of the Dique Frontal. Being only 3 km away from the city downtown, direct contact with native nature becomes a reality.",
+             "audio": "http://goandtour.com/trh/audios/es/12.mp3"
+         },
+         "pt": {
+             "title": "Reserva Natural Tara Inti",
+             "description": "La ",
+             "audio": "http://goandtour.com/trh/audios/es/12.mp3"
+         }
+     }
+  },
+  {
+     "id": 13,
+     "icon": "13.png",
+     "latitude": -27.501299,
+     "longitude": -64.859015,
+     "address": "",
+     "main_image": "http://goandtour.com/trh/main/13-ciudad-termas.jpg",
+     "multimedia": ["http://goandtour.com/trh/places/13-ciudad-termas.jpg"],
+     "langs": {
+         "es": {
+             "title": "Ciudad de Las Termas de Rio Hondo",
+             "description": "Las aguas del Río Dulce ya eran conocidas desde la época precolombina con el nombre de Aguas del Sol. El prestigio de esta ciudad existe desde hace siglos, la gente se acercaba desde diferentes lugares para disfrutar de las \"aguas milagrosas\" y de un microclima único.",
+             "audio": "http://goandtour.com/trh/audios/es/13.mp3"
+         },
+         "en": {
+             "title": "City of Termas de Rio Hondo",
+             "description": "The Rio Dulce waters were already known since pre-Columbian times with the name Aguas de Sol (waters of sun). The prestige of this city exists since centuries, gathethers approached from different places to enjoy miraculous waters and a unique microclimate.",
+             "audio": "http://goandtour.com/trh/audios/es/13.mp3"
+         },
+         "pt": {
+             "title": "S",
+             "description": "La ",
+             "audio": "http://goandtour.com/trh/audios/es/13.mp3"
+         }
+     }
+  },
+  {
+     "id": 14,
+     "icon": "14.png",
+     "latitude": -27.511926,
+     "longitude": -64.920381,
+     "address": "Autodromo",
+     "phone": "0385 421-8606",
+     "main_image": "http://goandtour.com/trh/main/14-museo-automovil.jpg",
+     "multimedia": ["http://goandtour.com/trh/places/14-museo-automovil.jpg"],
+     "langs": {
+         "es": {
+             "title": "Museo del automóvil",
+             "description": "Se encuentra contenido dentro del autódromo “Circuito Internacional Termas de Río Hondo”, ubicado a 6 kilómetros de la ciudad. Fue Inaugurado el 5 de octubre de 2012, posee un establecimiento de última generación donde se puso en valor a antiguos Automóviles, Motocicletas y otros elementos relacionados al mundo del deporte motor.",
+             "audio": "http://goandtour.com/trh/audios/es/14.mp3"
+         },
+         "en": {
+             "title": "Automobile Museum",
+             "description": "It is within the racetrack “International Circuit of Rio Hondo”, located 6 kilometers from the city. It was inaugurated on October fith,2012, possesses a last-generation establishment where old Automobiles, Motorcycles and other elements related to the world of the motor sport, are revalued.",
+             "audio": "http://goandtour.com/trh/audios/es/14.mp3"
+         },
+         "pt": {
+             "title": "S",
+             "description": "La ",
+             "audio": "http://goandtour.com/trh/audios/es/14.mp3"
+         }
+     }
+  },
+  {
+     "id": 15,
+     "icon": "15.png",
+     "latitude": -27.496599,
+     "longitude": -64.860645,
+     "address": "Caseros 268",
+     "phone": "03858 46-1344",
+     "main_image": "http://goandtour.com/trh/main/15-museo-atacama.jpg",
+     "multimedia": ["http://goandtour.com/trh/places/15-museo-atacama.jpg"],
+     "langs": {
+         "es": {
+             "title": "Museo Municipal Rincón de Atacama",
+             "description": "Este espacio está destinado al pasado paleontologico de la región, permite observar y conocer como fue la vida en este territorio miles de años atrás. El Museo Municipal Rincón de Athacama, se encuentra abierto desde el 25 de Noviembre de 1988.",
+             "audio": "http://goandtour.com/trh/audios/es/15.mp3"
+         },
+         "en": {
+             "title": "Rincon de Atacama Museum",
+             "description": "This Museum is considered as Paleoantropological and is named Rincon de Athacama by the archaeological deposits of Athacama from where the exhibition pieces come. This place intended for the paleontological past of the region, allows observing and learning how life in this territory was thousands of years ago.",
+             "audio": "http://goandtour.com/trh/audios/es/15.mp3"
+         },
+         "pt": {
+             "title": "Museu Rincon de Atacama",
+             "description": "La ",
+             "audio": "http://goandtour.com/trh/audios/es/15.mp3"
+         }
+     }
+  },
+  {
+     "id": 16,
+     "icon": "16.png",
+     "latitude": -27.496800,
+     "longitude": -64.863243,
+     "address": "Juan B. Alberdi y Mariano Moreno, Parque guemes",
+     "main_image": "http://goandtour.com/trh/main/16-museo-arte.jpg",
+     "multimedia": ["http://goandtour.com/trh/places/16-museo-arte.jpg"],
+     "langs": {
+         "es": {
+             "title": "Museo de Arte y artesanías regionales",
+             "description": "La temática de este Museo, es el arte regional y americano, es así que las piezas interactúan con las obras figurativas y composiciones abstractas.",
+             "audio": "http://goandtour.com/trh/audios/es/16.mp3"
+         },
+         "en": {
+             "title": "Fine Arts and regional crafts Museum",
+             "description": "The theme of this Museum, is the regional and american art, so it is that the pieces interact with figurative works and abstract compositions, generating the proper space for the delight and enjoyement of visual speeches.",
+             "audio": "http://goandtour.com/trh/audios/es/16.mp3"
+         },
+         "pt": {
+             "title": "Museu de Belas Artes",
+             "description": "La ",
+             "audio": "http://goandtour.com/trh/audios/es/16.mp3"
+         }
+     }
+  },
+  {
+     "id": 17,
+     "icon": "17.png",
+     "latitude": -27.498415,
+     "longitude": -64.863311,
+     "address": "Av. Manuel Belgrano 345",
+     "phone": "03858 42-3774",
+     "main_image": "http://goandtour.com/trh/main/17-centro-cultural-san-martin.jpg",
+     "multimedia": ["http://goandtour.com/trh/places/17-centro-cultural-san-martin.jpg"],
+     "langs": {
+         "es": {
+             "title": "Centro Cultural General San Martin",
+             "description": "En el corazón de Las Termas se encuentra el Centro Cultural General San Martín, un edificio histórico, sede de los mayores encuentros culturales, artísticos y sociales de la zona.",
+             "audio": "http://goandtour.com/trh/audios/es/17.mp3"
+         },
+         "en": {
+             "title": "Gral. San Martin Cultural Center",
+             "description": "In the heart of Las Termas lays the Centro Cultural General San Mart (General San Martin Culture Center), a historical building that hosts major cultural, artistic and social events.",
+             "audio": "http://goandtour.com/trh/audios/es/17.mp3"
+         },
+         "pt": {
+             "title": "Saude Termal - Chuveiros",
+             "description": "La ",
+             "audio": "http://goandtour.com/trh/audios/es/17.mp3"
+         }
+     }
+  },
+  {
+     "id": 18,
+     "icon": "18.png",
+     "latitude": -27.586253,
+     "longitude": -64.909889,
+     "address": "ruta 333, a 17 km de termas",
+     "main_image": "http://goandtour.com/trh/main/18-villa-rio-hondo.jpg",
+     "multimedia": ["http://goandtour.com/trh/places/18-villa-rio-hondo.jpg"],
+     "langs": {
+         "es": {
+             "title": "Villa Rio Hondo",
+             "description": "La historia de Villa Río Hondo, es muy interesante, ya que se relata el éxodo de un pueblo que sufría muchas inundaciones por estar a la orilla del Rio Dulce.",
+             "audio": "http://goandtour.com/trh/audios/es/18.mp3"
+         },
+         "en": {
+             "title": "Rio Hondo Village",
+             "description": "The history of Villa Río Hondo, is very interesting, since it tells the exodus of a village which suffered many floods by being on the banks of the Rio Dulce.",
+             "audio": "http://goandtour.com/trh/audios/es/18.mp3"
+         },
+         "pt": {
+             "title": "Vila Rio Hondo",
+             "description": "La ",
+             "audio": "http://goandtour.com/trh/audios/es/18.mp3"
+         }
+     }
+  },
+  {
+     "id": 19,
+     "icon": "19.png",
+     "latitude": -27.393839,
+     "longitude": -64.850271,
+     "address": "calle Maipu a 14 km. de Termas",
+     "main_image": "http://goandtour.com/trh/main/19-vinara.jpg",
+     "multimedia": ["http://goandtour.com/trh/places/19-vinara.jpg"],
+     "langs": {
+         "es": {
+             "title": "Vinará",
+             "description": "El poblado de Vinará, es uno de los más antiguos de la zona, era Posta del Camino Real que unía Perú de Buenos Aires. Siendo límite entre Santiago del Estero y Tucumán, era un sitio donde los viajeros podían descansar de las largas y agotadoras travesías.",
+             "audio": "http://goandtour.com/trh/audios/es/19.mp3"
+         },
+         "en": {
+             "title": "Vinará town",
+             "description": "The village of Vinará, is one of the oldest in the area, it was a \"Posta\" (Stopping Place) of the Camino Real (Royal Road) that linked Buenos Aires and Peru. Bordering Santiago del Estero and Tucumán, it was a place where travelers could rest from long and exhausting journeys.",
+             "audio": "http://goandtour.com/trh/audios/es/19.mp3"
+         },
+         "pt": {
+             "title": "Vinará",
+             "description": "La ",
+             "audio": "http://goandtour.com/trh/audios/es/19.mp3"
+         }
+     }
+  },
+  {
+     "id": 20,
+     "icon": "20.png",
+     "latitude": -27.498461,
+     "longitude": -64.854832,
+     "address": "N. Avellaneda 102-200",
+     "main_image": "http://goandtour.com/trh/main/20-mercado-municipal.jpg",
+     "multimedia": ["http://goandtour.com/trh/places/20-mercado-municipal.jpg"],
+     "langs": {
+         "es": {
+             "title": "Mercado Municipal de Termas de Rio Hondo",
+             "description": "Dicen que el Mercado es el corazón de una ciudad, y en este caso lo és. El Mercado Municipal, reúne a productores locales y visitantes de todas partes de lunes a sábado por la mañana de 7 a 13hs, y por la tarde de 17 a 21hs.",
+             "audio": "http://goandtour.com/trh/audios/es/20.mp3"
+         },
+         "en": {
+             "title": "Town Market",
+             "description": "The Market speaks by itself, and counts the history of the town that became city, the visitor can get to know the traditions of its people, the culture, the production and the economy.",
+             "audio": "http://goandtour.com/trh/audios/es/20.mp3"
+         },
+         "pt": {
+             "title": "S",
+             "description": "La ",
+             "audio": "http://goandtour.com/trh/audios/es/20.mp3"
+         }
+     }
   }
 ]

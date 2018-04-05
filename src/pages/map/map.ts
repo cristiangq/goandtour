@@ -27,7 +27,7 @@ export class MapPage {
   markerGroups:any = {
     "es": [],
     "en": [],
-    "fr": []
+    "pt": []
   };
 
   constructor(
@@ -72,23 +72,23 @@ export class MapPage {
       for (let l in this.places[k].langs) {
         var name = this.places[k].langs[l].title;
         var type = l;
-
-        let coordinates: LatLng = new LatLng(
-          parseFloat(this.places[k].latitude),
-          parseFloat(this.places[k].longitude)
-        );
-
-        this.createMarker(coordinates, name, type, this.places[k]);
+        if (this.places[k].latitude && this.places[k].longitude) {
+          let coordinates: LatLng = new LatLng(
+            parseFloat(this.places[k].latitude),
+            parseFloat(this.places[k].longitude)
+          );
+          this.createMarker(coordinates, name, type, this.places[k]);
+        }
       }
     }
   }
 
   createMarker(point, name, type, item) {
-      //icon: "assets/images/icons8-Marker-64.png",
     let markerOptions: MarkerOptions = {
         position: point,
         title: name,
-        type: type
+        type: type,
+        icon: "./assets/imgs/markers/" + item.icon
     };
 
     if (!this.markerGroups[type]){

@@ -10,7 +10,7 @@ import { Injectable } from '@angular/core';
 @Injectable()
 export class PlacesProvider {
 
-  apiUrl = 'https://housecall-api-dashboard.bridgepatientportal.com/mob';
+  apiUrl = 'http://trh.goandtour.com';
 
   constructor(public http: HttpClient) {
 
