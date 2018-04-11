@@ -95,7 +95,7 @@
      ],
      "langs": {
          "es": {
-             "title": "Salud Termal - Centro de Salud Termal",
+             "title": "Salud Termal - Centro Médico",
              "description": "Centro medico de orientación termal, ubicado en el parque Guemes. Ofrece servicios de relajación, terapias para la salud y estetica, además de piscinas termales al aire libre",
              "audio": "http://goandtour.com/trh/audios/es/3.mp3"
          },
@@ -146,7 +146,7 @@
      "icon": "5.png",
      "latitude": -27.511926,
      "longitude": -64.920381,
-     "address": "Autodromo",
+     "address": "Carreras automovilísticas y de motocicletas",
      "phone": "0385 421-8606",
      "main_image": "http://goandtour.com/trh/images/5-autodromo.jpg",
      "multimedia": [
@@ -155,17 +155,17 @@
      ],
      "langs": {
          "es": {
-             "title": "Autódromo - Carreras automovilísticas y de motocicleta",
+             "title": "Autódromo",
              "description": "El Autódromo Termas de Rio Hondo fue inaugurado en mayo de 2008, con la apertura del Turismo Carretera. Las Termas presenta el Circuito Internacional de deportes automovilísticos con el Moto GP, y las mejores categorías nacionales de Turismo Carretera, TC 2000 y Súper TC 2000, Turismo Nacional, Top Race y otras categorías zonales.",
              "audio": "http://goandtour.com/trh/audios/es/5.mp3"
          },
          "en": {
-             "title": "Racetrack - car and motorcycle racing",
+             "title": "Racetrack",
              "description": "The Termas de Río Hondo Racetrack was inaugurated in May, 2008, with the opening of the Tourism Cars. Today is the seat for international events like Moto GP and the most important national categories: TC 2000, Super TC 2000, Turismo Nacional, Top Race, and others.",
              "audio": "http://goandtour.com/trh/audios/en/5.mp3"
          },
          "pt": {
-             "title": "Autrodromo – corridas de carros y de motocicleta",
+             "title": "Autrodromo",
              "description": "O Autódromo Termas de Rio Hondo foi inaugurado em maio de 2008, com a abertura do Turismo de Estradas. Las Termas apresenta o Circuito Internacional de esportes a motor com o Moto GP, e as melhores categorias nacionais de Turismo de Estrada, TC 2000 e Super TC 2000, Turismo Nacional, Top Race e outras categorias zonais.",
              "audio": "http://goandtour.com/trh/audios/pt/5.mp3"
          }
@@ -225,7 +225,7 @@
          },
          "pt": {
              "title": "Festivais",
-             "description": "Termas tem marcas registradas e demonstra isso ano após ano em seus eventos de sucesso. Um deles é o festival nacional do "canasto", que exibe a arte milenar de trabalhar a fibra vegetal para obter elementos de cestaria excepcionais em uma variedade de formas e cores. Outro deles é o "Festival del Cabrito", onde o gourmet reúne o cabrito gourmete ate o cabrito tradicional na grelha, com uma extraordinária agenda artística de companhia.",
+             "description": "Termas tem marcas registradas e demonstra isso ano após ano em seus eventos de sucesso. Um deles é o festival nacional do \"canasto\", que exibe a arte milenar de trabalhar a fibra vegetal para obter elementos de cestaria excepcionais em uma variedade de formas e cores. Outro deles é o \"Festival del Cabrito\", onde o gourmet reúne o cabrito gourmete ate o cabrito tradicional na grelha, com uma extraordinária agenda artística de companhia.",
              "audio": "http://goandtour.com/trh/audios/pt/7.mp3"
          }
      }
@@ -379,8 +379,8 @@
   {
      "id": 13,
      "icon": "13.png",
-     "latitude": -27.501299,
-     "longitude": -64.859015,
+     "latitude": -27.499856,
+     "longitude": -64.860067,
      "address": "",
      "main_image": "http://goandtour.com/trh/images/13-ciudad-termas.jpg",
      "multimedia": [
