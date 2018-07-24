@@ -1,11 +1,22 @@
 {
-  "NAME": "Nom",
-  "PASSWORD": "Mot de passe",
-  "EMAIL": "E-mail",
-  "LOGIN": "Connexion",
-  "SIGNUP": "Inscription",
+  "BACK_BUTTON_TEXT": "Voltar",
+  "SEARCH": "Search",
+  "NEXT": "Next",
+  "PREV": "Prev",
 
-  "TAB1_TITLE": "Items",
-  "TAB2_TITLE": "Recherche",
-  "TAB3_TITLE": "Paramètres"
+  "SELECT_LANGUAGE_TITLE": "Selecione o idioma",
+  "SELECT_LANGUAGE_OK": "Selecione",
+  "SELECT_LANGUAGE_CANCEL": "Cancelar",
+
+  "SCAN_TITLE": "Escanear Código QR",
+  "SCAN_DESCRIPTION": "Escanea el codigo QR para obter mais informações sobre o site que você está visitando",
+  "SCAN_BUTTON": "Escanear",
+  "SCAN_NOT_FOUND": "Ñao Encontrado",
+
+  "DETAIL_ADDRESS" : "direção",
+  "DETAIL_PHONE" : "Telefone",
+
+  "TAB1_TITLE": "Mapa",
+  "TAB2_TITLE": "Lista",
+  "TAB3_TITLE": "Escanear"
 }

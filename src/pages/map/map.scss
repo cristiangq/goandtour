@@ -2,4 +2,10 @@ page-map {
       #map {
         height: 100%;
       }
+      ion-content {
+          background: url(../assets/imgs/background1.jpg) no-repeat center center fixed;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          background-size: cover;
+      }
 }

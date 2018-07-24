@@ -1,5 +1,8 @@
 {
   "BACK_BUTTON_TEXT": "Back",
+  "SEARCH": "Search",
+  "NEXT": "Next",
+  "PREV": "Prev",
 
   "SELECT_LANGUAGE_TITLE": "Choose Language",
   "SELECT_LANGUAGE_OK": "Ok",
@@ -11,6 +14,7 @@
   "SCAN_NOT_FOUND": "Not Found",
 
   "DETAIL_ADDRESS" : "Address",
+  "DETAIL_PHONE" : "Phone",
 
   "TAB1_TITLE": "Map",
   "TAB2_TITLE": "List",

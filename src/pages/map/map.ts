@@ -54,7 +54,7 @@ export class MapPage {
               lat: -27.50,
               lng: -64.86
             },
-            zoom: 14,
+            zoom: 15,
             tilt: 30
           }
     };

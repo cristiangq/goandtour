@@ -3,9 +3,15 @@
 </ion-header>
 
 <ion-content>
-  <ion-card *ngFor="let place of places" (click)="showDetail(place)" >
-    <img [src]="place.main_image" />
-    <div class="card-title" [innerText]="getTitle(place)"></div>
-    <div class="card-subtitle">{{place.address}}</div>
+  <ion-searchbar placeholder="{{ 'SEARCH' | translate }}" [(ngModel)]="searchTerm" [formControl]="searchControl" (ionInput)="onSearchInput()"></ion-searchbar>
+
+  <div *ngIf="searching" class="spinner-container">
+    <ion-spinner></ion-spinner>
+  </div>
+
+  <ion-card *ngFor="let place of items" (click)="showDetail(place)">
+    <img [src]="place.main_image"/>
+    <div [innerText]="getTitle(place)" class="card-title"></div>
+    <div *ngIf="showAddress(place)" class="card-subtitle">{{place.address || ''}}</div>
   </ion-card>
 </ion-content>
