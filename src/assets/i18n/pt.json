@@ -1,5 +1,8 @@
 {
   "BACK_BUTTON_TEXT": "Voltar",
+  "SEARCH": "Search",
+  "NEXT": "Next",
+  "PREV": "Prev",
 
   "SELECT_LANGUAGE_TITLE": "Selecione o idioma",
   "SELECT_LANGUAGE_OK": "Selecione",

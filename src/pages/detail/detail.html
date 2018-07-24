@@ -28,6 +28,18 @@
         <b>{{ 'DETAIL_PHONE' | translate }}:</b>
         {{ item.phone }}
       </p>
+      <ion-list>
+        <ion-item>
+          <button *ngIf="hasPrev()" ion-button item-start icon-start color="light" (click)="prev()">
+            <ion-icon name="arrow-back"></ion-icon>
+            {{ 'PREV' | translate }}
+          </button>
+          <button *ngIf="hasNext()" ion-button item-end icon-end color="light" (click)="next()">
+            {{ 'NEXT' | translate }}
+            <ion-icon name="arrow-forward"></ion-icon>
+          </button>
+        </ion-item>
+      </ion-list>
       <ion-fab *ngIf="item.latitude" right bottom>
         <button ion-fab color="light" (click)="goMap()">
           <ion-icon name="navigate"></ion-icon>

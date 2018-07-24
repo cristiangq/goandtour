@@ -19,7 +19,14 @@ export class MyHeaderComponent {
       events.subscribe('languageChanged', () => {
           this.currentLanguage = sysOptions.systemLanguage;
           this.translateService.use(sysOptions.systemLanguage);
+
+          var audios = document.getElementsByTagName('audio');
+          for(var i = 0, len = audios.length; i < len;i++){
+                audios[i].pause();
+                audios[i].load();
+          }
        });
+       this.translateService.use(sysOptions.systemLanguage);
   }
 
   showRadio() {
