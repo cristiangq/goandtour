@@ -14,12 +14,12 @@
            },
            "en": {
                "title": "Thermalism",
-               "description": "This ",
+               "description": "\"The Waters of Las Termas de Rio Hondo are of indisputable efficiency\" affirms one of the experts in the thermal waters. \"It is confirmed by its water composition and verified  in its aplication\", explains.",
                "audio": "http://goandtour.com/trh/audios/en/0.mp3"
            },
            "pt": {
                "title": "Termalismo",
-               "description": "Ce ",
+               "description": "Um dos maiores especialistas nas águas de Las Termas de Rio Hondo afirma que a água medicinal é de eficácia indiscutível em certas condições, é verificada pela composição da água e verificada na aplicação.",
                "audio": "http://goandtour.com/trh/audios/pt/0.mp3"
            }
        }
@@ -48,7 +48,7 @@
           },
           "pt": {
               "title": "Saude Termal - Chuveiros",
-              "description": "La ",
+              "description": "Os chuveiros termais são um novo serviço oferecido pelo município de Las Termas de Río Hondo. Todos estes tratamentos são realizados sob controle médico térmico.",
               "audio": "http://goandtour.com/trh/audios/pt/1.mp3"
           }
       }
@@ -95,7 +95,7 @@
      ],
      "langs": {
          "es": {
-             "title": "Salud Termal - Centro de Salud Termal",
+             "title": "Salud Termal - Centro Médico",
              "description": "Centro medico de orientación termal, ubicado en el parque Guemes. Ofrece servicios de relajación, terapias para la salud y estetica, además de piscinas termales al aire libre",
              "audio": "http://goandtour.com/trh/audios/es/3.mp3"
          },
@@ -106,7 +106,7 @@
          },
          "pt": {
              "title": "Saúde Termal- Medical Center",
-             "description": "La ",
+             "description": "Centro médico com orientação térmica, localizado no Parque Güemes. Oferece serviços de relaxamento, terapias para saúde e beleza, alem como piscinas termais ao ar livre",
              "audio": "http://goandtour.com/trh/audios/pt/3.mp3"
          }
      }
@@ -136,7 +136,7 @@
          },
          "pt": {
              "title": "Tour Aeronautico",
-             "description": "La ",
+             "description": "O esporte aquático é o esporte pioneiro em Las Termas de Río Hondo e é praticado de diversos jeitos: regatas, passeios de barco, windsurf, kitsurf, mergulho flúvio-aquático, entre outros.",
              "audio": "http://goandtour.com/trh/audios/pt/4.mp3"
          }
      }
@@ -146,7 +146,7 @@
      "icon": "5.png",
      "latitude": -27.511926,
      "longitude": -64.920381,
-     "address": "Autodromo",
+     "address": "Carreras automovilísticas y de motocicletas",
      "phone": "0385 421-8606",
      "main_image": "http://goandtour.com/trh/images/5-autodromo.jpg",
      "multimedia": [
@@ -155,18 +155,18 @@
      ],
      "langs": {
          "es": {
-             "title": "Autódromo - Carreras automovilísticas y de motocicleta",
+             "title": "Autódromo",
              "description": "El Autódromo Termas de Rio Hondo fue inaugurado en mayo de 2008, con la apertura del Turismo Carretera. Las Termas presenta el Circuito Internacional de deportes automovilísticos con el Moto GP, y las mejores categorías nacionales de Turismo Carretera, TC 2000 y Súper TC 2000, Turismo Nacional, Top Race y otras categorías zonales.",
              "audio": "http://goandtour.com/trh/audios/es/5.mp3"
          },
          "en": {
-             "title": "Racetrack - car and motorcycle racing",
+             "title": "Racetrack",
              "description": "The Termas de Río Hondo Racetrack was inaugurated in May, 2008, with the opening of the Tourism Cars. Today is the seat for international events like Moto GP and the most important national categories: TC 2000, Super TC 2000, Turismo Nacional, Top Race, and others.",
              "audio": "http://goandtour.com/trh/audios/en/5.mp3"
          },
          "pt": {
-             "title": "S",
-             "description": "La ",
+             "title": "Autrodromo",
+             "description": "O Autódromo Termas de Rio Hondo foi inaugurado em maio de 2008, com a abertura do Turismo de Estradas. Las Termas apresenta o Circuito Internacional de esportes a motor com o Moto GP, e as melhores categorias nacionais de Turismo de Estrada, TC 2000 e Super TC 2000, Turismo Nacional, Top Race e outras categorias zonais.",
              "audio": "http://goandtour.com/trh/audios/pt/5.mp3"
          }
      }
@@ -196,7 +196,7 @@
          },
          "pt": {
              "title": "Torneios de golfe",
-             "description": "La ",
+             "description": "O local escolhido para jogar golfe é o Rio Hondo Golf Club, localizado a apenas 2 km do centro da cidade, com um campo de 9 buracos. Em 2010, a cidade foi cenário do Primeiro Aberto de Golfe das Termas de Rio Hondo.",
              "audio": "http://goandtour.com/trh/audios/pt/6.mp3"
          }
      }
@@ -224,8 +224,8 @@
              "audio": "http://goandtour.com/trh/audios/en/7.mp3"
          },
          "pt": {
-             "title": "S",
-             "description": "La ",
+             "title": "Festivais",
+             "description": "Termas tem marcas registradas e demonstra isso ano após ano em seus eventos de sucesso. Um deles é o festival nacional do \"canasto\", que exibe a arte milenar de trabalhar a fibra vegetal para obter elementos de cestaria excepcionais em uma variedade de formas e cores. Outro deles é o \"Festival del Cabrito\", onde o gourmet reúne o cabrito gourmete ate o cabrito tradicional na grelha, com uma extraordinária agenda artística de companhia.",
              "audio": "http://goandtour.com/trh/audios/pt/7.mp3"
          }
      }
@@ -254,8 +254,8 @@
              "audio": "http://goandtour.com/trh/audios/en/8.mp3"
          },
          "pt": {
-             "title": "S",
-             "description": "La ",
+             "title": "Cassino",
+             "description": "O Cassino de Las Termas de Río Hondo é um dos mais antigos cassinos da região. Sua construção remonta a 1943 com um estilo colonial em sua fachada, bem como uma estrutura moderna e luxuosa no interior.",
              "audio": "http://goandtour.com/trh/audios/pt/8.mp3"
          }
      }
@@ -283,8 +283,8 @@
              "audio": "http://goandtour.com/trh/audios/en/9.mp3"
          },
          "pt": {
-             "title": "S",
-             "description": "La ",
+             "title": "Parque Güemes",
+             "description": "Este parque é o coração de Las Termas, uma atração que os visitantes apreciam por seus bosques, suas instalações e atividades permanentemente para toda a família. Está localizado na Rota Nacional 9 e na Avenida Manuel Belgrano, em frente à Plaza San Martín e ao Casino.",
              "audio": "http://goandtour.com/trh/audios/pt/9.mp3"
          }
      }
@@ -312,8 +312,8 @@
              "audio": "http://goandtour.com/trh/audios/en/10.mp3"
          },
          "pt": {
-             "title": "Lago da Barragem Rio Hondo",
-             "description": "La ",
+             "title": "Lago da Termas de Rio Hondo",
+             "description": "O Lago Frontal é um dos lugares mais bonitos e inesquecíveis que Las Termas de Rio Hondo tem. Este espelho d'água de 19 km de comprimento e 17 km de largura abriga peixes de grande e médio porte, como o dourado, bogas, bagre, tarariras, sabalo, pejerreyes e outros peixes regionais.",
              "audio": "http://goandtour.com/trh/audios/pt/10.mp3"
          }
      }
@@ -342,7 +342,7 @@
          },
          "pt": {
              "title": "Dique de Contenção",
-             "description": "La ",
+             "description": "O Dique Frontal é, sem dúvida, uma das grandes obras de engenharia realizadas na província de Santiago del Estero. A grande importância deste site é reconhecida nacionalmente",
              "audio": "http://goandtour.com/trh/audios/pt/11.mp3"
          }
      }
@@ -371,7 +371,7 @@
          },
          "pt": {
              "title": "Reserva Natural Tara Inti",
-             "description": "La ",
+             "description": "A Reserva Natural Tara Inti está localizada no meio do Rio Dulce, às margens da nova costanera e do dique frontal. Este local tem uma área extensa de mais de 20 hectares onde você pode desfrutar de grande diversidade natural, fazer caminhadas e atividades recreativas para toda a família.",
              "audio": "http://goandtour.com/trh/audios/pt/12.mp3"
          }
      }
@@ -379,8 +379,8 @@
   {
      "id": 13,
      "icon": "13.png",
-     "latitude": -27.501299,
-     "longitude": -64.859015,
+     "latitude": -27.499856,
+     "longitude": -64.860067,
      "address": "",
      "main_image": "http://goandtour.com/trh/images/13-ciudad-termas.jpg",
      "multimedia": [
@@ -399,8 +399,8 @@
              "audio": "http://goandtour.com/trh/audios/en/13.mp3"
          },
          "pt": {
-             "title": "S",
-             "description": "La ",
+             "title": "Cidade de termas de rio hondo",
+             "description": "As águas do Rio Dulce eram conhecidas desde a era pré-colombiana com o nome de Águas do Sol. O prestígio desta cidade existe há séculos, as pessoas vieram de lugares diferentes para apreciar as \"águas milagrosas\" e um microclima único.",
              "audio": "http://goandtour.com/trh/audios/pt/13.mp3"
          }
      }
@@ -429,8 +429,8 @@
              "audio": "http://goandtour.com/trh/audios/en/14.mp3"
          },
          "pt": {
-             "title": "S",
-             "description": "La ",
+             "title": "Museu do automovel",
+             "description": "Está contido no \"Circuito Internacional Termas de Rio Hondo\", localizado a 6 km da cidade. Foi inaugurado em 5 de outubro de 2012, tem um estabelecimento onde automóveis antigos, motocicletas e outros elementos relacionados ao mundo do esporte a motor foram valorizados.",
              "audio": "http://goandtour.com/trh/audios/pt/14.mp3"
          }
      }
@@ -460,7 +460,7 @@
          },
          "pt": {
              "title": "Museu Rincon de Atacama",
-             "description": "La ",
+             "description": "Este espaço é destinado ao passado paleontológico da região, permite observar e conhecer como era a vida neste território há milhares de anos. O Museu Municipal Rincón de Athacama, está aberto desde 25 de novembro de 1988.",
              "audio": "http://goandtour.com/trh/audios/pt/15.mp3"
          }
      }
@@ -489,7 +489,7 @@
          },
          "pt": {
              "title": "Museu de Belas Artes",
-             "description": "La ",
+             "description": "O tema deste museu é a arte regional e americana, por isso as peças interagem com obras figurativas e composições abstratas.",
              "audio": "http://goandtour.com/trh/audios/pt/16.mp3"
          }
      }
@@ -518,8 +518,8 @@
              "audio": "http://goandtour.com/trh/audios/en/17.mp3"
          },
          "pt": {
-             "title": "Saude Termal - Chuveiros",
-             "description": "La ",
+             "title": "Centro cultural general san martin",
+             "description": "No coração de Las Termas está o Centro Cultural Geral San Martín, um edifício histórico que abriga os maiores encontros culturais, artísticos e sociais da região",
              "audio": "http://goandtour.com/trh/audios/pt/17.mp3"
          }
      }
@@ -548,7 +548,7 @@
          },
          "pt": {
              "title": "Vila Rio Hondo",
-             "description": "La ",
+             "description": "A história da Villa Río Hondo, é muito interessante, uma vez que se relaciona com o êxodo de uma cidade que sofreu muitas inundações por estar nas margens do Rio Dulce.",
              "audio": "http://goandtour.com/trh/audios/pt/18.mp3"
          }
      }
@@ -577,7 +577,7 @@
          },
          "pt": {
              "title": "Vinará",
-             "description": "La ",
+             "description": "A cidade de Vinará, é uma das mais antigas da região, foi a Posta del Camino Real que ligou o Peru a Buenos Aires. Sendo a fronteira entre Santiago del Estero e Tucumán, era um lugar onde os viajantes podiam descansar das longas e exaustivas jornadas.",
              "audio": "http://goandtour.com/trh/audios/pt/19.mp3"
          }
      }

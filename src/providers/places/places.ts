@@ -10,7 +10,8 @@ import { Injectable } from '@angular/core';
 @Injectable()
 export class PlacesProvider {
 
-  apiUrl = 'http://trh.goandtour.com';
+//  apiUrl = 'http://trh.goandtour.com';
+apiUrl = 'assets';
 
   constructor(public http: HttpClient) {
 
