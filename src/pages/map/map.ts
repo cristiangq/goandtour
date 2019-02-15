@@ -51,8 +51,8 @@ export class MapPage {
     let mapOptions: GoogleMapOptions = {
           camera: {
             target: {
-              lat: -27.50,
-              lng: -64.86
+              lat: -27.78,
+              lng: -64.26
             },
             zoom: 15,
             tilt: 30

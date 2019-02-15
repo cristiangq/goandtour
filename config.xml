@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="goandtour.com.termas" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Las Termas Tour</name>
-    <description>Guia Turistica de Termas de Rio Hondo</description>
+<widget id="goandtour.com.sde" version="1.3.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>SDE Tour</name>
+    <description>Guia Turistica de Santiago del Estero</description>
     <author email="cristiangq@gmail.com" href="http://ionicframework.com/">Cristian Quintana</author>
     <content src="index.html" />
     <access origin="*" />
@@ -93,5 +93,5 @@
         <variable name="ANDROID_SUPPORT_V4_VERSION" value="26.1.0" />
         <variable name="API_KEY_FOR_IOS" value="(API_KEY_FOR_IOS)" />
     </plugin>
-    <engine name="android" spec="7.0.0" />
+    <engine name="android" spec="7.1.1" />
 </widget>

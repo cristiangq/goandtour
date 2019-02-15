@@ -8,28 +8,23 @@
        ],
        "langs": {
            "es": {
-               "title": "Termalismo",
+               "title": "Historia de Santiago",
                "description": "Afirma uno de los mayores estudiosos de las aguas de Las Termas de Río Hondo, que el agua medicinal es de eficacia indiscutible en ciertas afecciones, está constatado por la composición del agua y comprobado en la aplicación",
                "audio": "http://goandtour.com/trh/audios/es/0.mp3"
            },
            "en": {
-               "title": "Thermalism",
+               "title": "Santiago’s History",
                "description": "\"The Waters of Las Termas de Rio Hondo are of indisputable efficiency\" affirms one of the experts in the thermal waters. \"It is confirmed by its water composition and verified  in its aplication\", explains.",
                "audio": "http://goandtour.com/trh/audios/en/0.mp3"
-           },
-           "pt": {
-               "title": "Termalismo",
-               "description": "Um dos maiores especialistas nas águas de Las Termas de Rio Hondo afirma que a água medicinal é de eficácia indiscutível em certas condições, é verificada pela composição da água e verificada na aplicação.",
-               "audio": "http://goandtour.com/trh/audios/pt/0.mp3"
            }
        }
    },
    {
       "id": 1,
       "icon": "1.png",
-      "latitude": -27.501289,
-      "longitude": -64.859005,
-      "address": "Lascano y Ejercito del Norte",
+      "latitude": -27.787433,
+      "longitude": -64.259278,
+      "address": "Independencia 50",
       "main_image": "http://goandtour.com/trh/images/1-salud.jpg",
       "multimedia": [
         "http://goandtour.com/trh/images/1-salud.jpg",
@@ -37,28 +32,24 @@
       ],
       "langs": {
           "es": {
-              "title": "Salud Termal - Duchas",
-              "description": "La duchas termales son un novedoso servicio que brinda la Municipalidad de Las Termas de Río Hondo. Todos estos tratamientos se realizan bajo control medico termalista.",
+              "title": "Plaza Libertad",
+              "description": "Está ubicada entre las calles Libertad, Avellaneda, Independencia y 24 de Septiembre.  Es la principal plaza de la ciudad y el centro de la zona urbana.",
               "audio": "http://goandtour.com/trh/audios/es/1.mp3"
           },
           "en": {
-              "title": "Thermal Health - showers",
-              "description": "The thermal showers are a new service offered by the Municipality of Termas de Rio Hondo. Consists of different techniques and applications of mineral and medicinal water, wich are done under medical control.",
+              "title": "Liberty Square",
+              "description": "Está ubicada entre las calles Libertad, Avellaneda, Independencia y 24 de Septiembre.  Es la principal plaza de la ciudad y el centro de la zona urbana.",
               "audio": "http://goandtour.com/trh/audios/en/1.mp3"
-          },
-          "pt": {
-              "title": "Saude Termal - Chuveiros",
-              "description": "Os chuveiros termais são um novo serviço oferecido pelo município de Las Termas de Río Hondo. Todos estes tratamentos são realizados sob controle médico térmico.",
-              "audio": "http://goandtour.com/trh/audios/pt/1.mp3"
           }
       }
   },
   {
      "id": 2,
      "icon": "2.png",
-     "latitude": -27.503628,
-     "longitude": -64.858368,
-     "address": "Av. Costanera",
+     "latitude": -27.788090,
+     "longitude": -64.260327,
+     "address": "24 de Septiembre 55",
+     "phone": "0385 422-0403",
      "main_image": "http://goandtour.com/trh/images/2-la-olla.jpg",
      "multimedia": [
        "http://goandtour.com/trh/images/2-la-olla.jpg",
@@ -66,28 +57,24 @@
      ],
      "langs": {
          "es": {
-             "title": "Salud Termal - La Olla",
-             "description": "La Olla, es el balneario municipal más antiguo de la ciudad de Las Termas de Río Hondo. Un atractivo tradicional donde cada temporada de invierno se congregan visitantes y residentes a disfrutar del agua termal.",
+             "title": "Catedral Basílica",
+             "description": "La Iglesia Catedral Basílica es la más antigua de Argentina y la primera Sede Episcopal.La primera construcción se inició en el año 1591, frente a la plaza de la aun primitiva ciudad.",
              "audio": "http://goandtour.com/trh/audios/es/2.mp3"
          },
          "en": {
-             "title": "Thermal Health - The Pot",
-             "description": "Its the only natural slope of outdoor thermal water. It is located near the river and shapes a big pool of dirt floor. It`s waters reach a temperature of 30 °C and above.",
+             "title": "Basilica Cathedral",
+             "description": "La Iglesia Catedral Basílica es la más antigua de Argentina y la primera Sede Episcopal.La primera construcción se inició en el año 1591, frente a la plaza de la aun primitiva ciudad.",
              "audio": "http://goandtour.com/trh/audios/en/2.mp3"
-         },
-         "pt": {
-             "title": "Saúde Termal- La Olla",
-             "description": "É a única fonte natural de água termal ao ar livre, a mesma  está localizada perto do rio e forma uma grande piscina com um piso de terra, cujas águas estão a 30 ° C e ainda temperaturas mais elevadas.",
-             "audio": "http://goandtour.com/trh/audios/pt/2.mp3"
          }
      }
   },
   {
      "id": 3,
      "icon": "3.png",
-     "latitude": -27.499556,
-     "longitude": -64.862206,
-     "address": "Parque Guemes, Libertad 150",
+     "latitude": -27.787243,
+     "longitude": -64.260284,
+     "address": "Libertad 481",
+     "phone": "0385 422-9800 / 422-9801 / 422-9802",
      "main_image": "http://goandtour.com/trh/images/3-spa.jpg",
      "multimedia": [
        "http://goandtour.com/trh/images/3-spa.jpg",
@@ -95,29 +82,24 @@
      ],
      "langs": {
          "es": {
-             "title": "Salud Termal - Centro Médico",
-             "description": "Centro medico de orientación termal, ubicado en el parque Guemes. Ofrece servicios de relajación, terapias para la salud y estetica, además de piscinas termales al aire libre",
+             "title": "Palacio Municipal",
+             "description": "Sede del gobierno municipal. Edificio modernizado y que ofrece múltiples funciones para los ciudadanos y turistas.",
              "audio": "http://goandtour.com/trh/audios/es/3.mp3"
          },
          "en": {
-             "title": "Thermal Health - Medical Center",
-             "description": "This center is located in the Guemes park. It offers treatments with mineral-medicinal waters to neurological, antirheumatic, circulatory, dermatological and esthetic therapies.",
+             "title": "Town Palace",
+             "description": "Sede del gobierno municipal. Edificio modernizado y que ofrece múltiples funciones para los ciudadanos y turistas.",
              "audio": "http://goandtour.com/trh/audios/en/3.mp3"
-         },
-         "pt": {
-             "title": "Saúde Termal- Medical Center",
-             "description": "Centro médico com orientação térmica, localizado no Parque Güemes. Oferece serviços de relaxamento, terapias para saúde e beleza, alem como piscinas termais ao ar livre",
-             "audio": "http://goandtour.com/trh/audios/pt/3.mp3"
          }
      }
   },
   {
      "id": 4,
      "icon": "4.png",
-     "latitude": -27.506477,
-     "longitude": -64.933172,
-     "address": "Club Naútico",
-     "phone": "03858 42-7040",
+     "latitude": -27.787114,
+     "longitude": -64.259908,
+     "address": "Libertad 439",
+     "phone": "0385 422-4858",
      "main_image": "http://goandtour.com/trh/images/4-deportes-nauticos.jpg",
      "multimedia": [
        "http://goandtour.com/trh/images/4-deportes-nauticos.jpg",
@@ -125,29 +107,23 @@
      ],
      "langs": {
          "es": {
-             "title": "Deportes naúticos",
-             "description": "El deporte náutico es el deporte pionero en Las Termas de Río Hondo, se practica de diversos modos: regatas, canotaje, windsurf, kitsurf, buceo flubiolacustre, entre otros.",
+             "title": "Centro Cultural del Bicentenario",
+             "description": "Comprende los museos más importantes de la ciudad: el Museo Histórico \"Dr. Orestes Di Lullo\",  el Museo de Bellas Artes \"Ramón Gómez Cornet\" y el Museo de Ciencias Antropológicas y Naturales \"Emilio y Duncan Wagner\".",
              "audio": "http://goandtour.com/trh/audios/es/4.mp3"
          },
          "en": {
-             "title": "Nautical Sports",
-             "description": "The Nautical sport are the pioneered sports in Las Termas de Río Hondo. iI is practiced in various ways: sailing, canoeing, windsurf, kitesurf, fluvio-lacustrine diving, among others.",
+             "title": "The Bicentennial Cultural Center",
+             "description": "Comprende los museos más importantes de la ciudad: el Museo Histórico \"Dr. Orestes Di Lullo\",  el Museo de Bellas Artes \"Ramón Gómez Cornet\" y el Museo de Ciencias Antropológicas y Naturales \"Emilio y Duncan Wagner\".",
              "audio": "http://goandtour.com/trh/audios/en/4.mp3"
-         },
-         "pt": {
-             "title": "Tour Aeronautico",
-             "description": "O esporte aquático é o esporte pioneiro em Las Termas de Río Hondo e é praticado de diversos jeitos: regatas, passeios de barco, windsurf, kitsurf, mergulho flúvio-aquático, entre outros.",
-             "audio": "http://goandtour.com/trh/audios/pt/4.mp3"
          }
      }
   },
   {
      "id": 5,
      "icon": "5.png",
-     "latitude": -27.511926,
-     "longitude": -64.920381,
-     "address": "Carreras automovilísticas y de motocicletas",
-     "phone": "0385 421-8606",
+     "latitude": -27.791293,
+     "longitude": -64.265528,
+     "address": "Libertad 1100",
      "main_image": "http://goandtour.com/trh/images/5-autodromo.jpg",
      "multimedia": [
        "http://goandtour.com/trh/images/5-autodromo.jpg",
@@ -155,29 +131,24 @@
      ],
      "langs": {
          "es": {
-             "title": "Autódromo",
-             "description": "El Autódromo Termas de Rio Hondo fue inaugurado en mayo de 2008, con la apertura del Turismo Carretera. Las Termas presenta el Circuito Internacional de deportes automovilísticos con el Moto GP, y las mejores categorías nacionales de Turismo Carretera, TC 2000 y Súper TC 2000, Turismo Nacional, Top Race y otras categorías zonales.",
+             "title": "Parque Oeste",
+             "description": "Este reservado y moderno Parque aloja el edificio del Honorable Concejo Deliberante de la ciudad, el Teatro del Pueblo, el Centro Cultural Ricardo Rojas.",
              "audio": "http://goandtour.com/trh/audios/es/5.mp3"
          },
          "en": {
-             "title": "Racetrack",
-             "description": "The Termas de Río Hondo Racetrack was inaugurated in May, 2008, with the opening of the Tourism Cars. Today is the seat for international events like Moto GP and the most important national categories: TC 2000, Super TC 2000, Turismo Nacional, Top Race, and others.",
+             "title": "The West Park",
+             "description": "Este reservado y moderno Parque aloja el edificio del Honorable Concejo Deliberante de la ciudad, el Teatro del Pueblo, el Centro Cultural Ricardo Rojas.",
              "audio": "http://goandtour.com/trh/audios/en/5.mp3"
-         },
-         "pt": {
-             "title": "Autrodromo",
-             "description": "O Autódromo Termas de Rio Hondo foi inaugurado em maio de 2008, com a abertura do Turismo de Estradas. Las Termas apresenta o Circuito Internacional de esportes a motor com o Moto GP, e as melhores categorias nacionais de Turismo de Estrada, TC 2000 e Super TC 2000, Turismo Nacional, Top Race e outras categorias zonais.",
-             "audio": "http://goandtour.com/trh/audios/pt/5.mp3"
          }
      }
   },
   {
      "id": 6,
      "icon": "6.png",
-     "latitude": -27.505850,
-     "longitude": -64.864712,
-     "address": "Rio Hondo Golf Club, Av. Costanera.",
-     "phone": "03858 15-40-7521",
+     "latitude": -27.785116,
+     "longitude": -64.257287,
+     "address": "Libertad 175",
+     "phone": "0385 424-2172",
      "main_image": "http://goandtour.com/trh/images/6-campo-golf.jpg",
      "multimedia": [
        "http://goandtour.com/trh/images/6-campo-golf.jpg",
@@ -185,28 +156,24 @@
      ],
      "langs": {
          "es": {
-             "title": "Campos de Golf",
-             "description": "El lugar elegido para jugar golf es el Río Hondo Golf Club, que se encuentra ubicado a solo 2 km del centro de la ciudad con una cancha de 9 hoyos. En 2010, la ciudad fue escenario del Primer Abierto de Golf de Termas de Rio Hondo.",
+             "title": "Casa Argañaraz Alcorta",
+             "description": "En el edificio histórico que perteneció a la familia Argañaraz Alcorta, originario del año 1927, funciona hoy un Centro Cultural.",
              "audio": "http://goandtour.com/trh/audios/es/6.mp3"
          },
          "en": {
-             "title": "Golf Courses",
-             "description": "The best place to play golf in Termas is The Rio Hondo Golf Club, which is located only 2 km from downtown, and possesses a field with 9 holes. In 2010, the city hosted the first Open Golf Tournament of Termas de Rio Hondo.",
+             "title": "House Argañaraz Alcorta",
+             "description": "En el edificio histórico que perteneció a la familia Argañaraz Alcorta, originario del año 1927, funciona hoy un Centro Cultural.",
              "audio": "http://goandtour.com/trh/audios/en/6.mp3"
-         },
-         "pt": {
-             "title": "Torneios de golfe",
-             "description": "O local escolhido para jogar golfe é o Rio Hondo Golf Club, localizado a apenas 2 km do centro da cidade, com um campo de 9 buracos. Em 2010, a cidade foi cenário do Primeiro Aberto de Golfe das Termas de Rio Hondo.",
-             "audio": "http://goandtour.com/trh/audios/pt/6.mp3"
          }
      }
   },
   {
      "id": 7,
      "icon": "7.png",
-     "latitude": -27.494801,
-     "longitude": -64.867348,
-     "address": "Av. Manuel Belgrano entre Santa Fé y Córdoba",
+     "latitude": -27.786535,
+     "longitude": -64.256800,
+     "address": "Avellaneda 387",
+     "phone": "0385 422-4515",
      "main_image": "http://goandtour.com/trh/images/7-festivales.jpg",
      "multimedia": [
        "http://goandtour.com/trh/images/7-festivales.jpg",
@@ -214,29 +181,23 @@
      ],
      "langs": {
          "es": {
-             "title": "Festivales",
-             "description": "Termas tiene marcas registradas y lo demuestra año a año en sus exitosos eventos. Uno es el Festival Nacional del Canasto, que exhibe el milenario arte de trabajar la fibra vegetal para lograr excepcionales elementos de cestería en variedad de formas y colores. Otro de ellos es el Festival del Cabrito, donde se une desde la degustación del cabrito gourmet hasta el tradicional cabrito a la parrilla, con una extraordinaria agenda artística de compañia.",
+             "title": "Teatro 25 de Mayo",
+             "description": "Este teatro comenzó a edificarse en el año 1909  y se inauguró el 25 de mayo de 1910, aunque se terminó definitivamente en 1923. Es el principal escenario de la cultura y el entretenimiento provincial.",
              "audio": "http://goandtour.com/trh/audios/es/7.mp3"
          },
          "en": {
-             "title": "Festivals",
-             "description": "Termas has its festive icons and its success is demonstrated every year. One of them is the National Festival del Canasto or Basket Festival, wich shows the ancient art of working with vegetable fiber to make a variety of baskets. Other one is the Festival del Cabrito or Goat Festival, where you can enjoy from a gourmet meat dish of goat to the traditional roasted goat, with the company of an extraordinary artistic agenda.",
+             "title": "Theater 25 de Mayo",
+             "description": "Este teatro comenzó a edificarse en el año 1909  y se inauguró el 25 de mayo de 1910, aunque se terminó definitivamente en 1923. Es el principal escenario de la cultura y el entretenimiento provincial.",
              "audio": "http://goandtour.com/trh/audios/en/7.mp3"
-         },
-         "pt": {
-             "title": "Festivais",
-             "description": "Termas tem marcas registradas e demonstra isso ano após ano em seus eventos de sucesso. Um deles é o festival nacional do \"canasto\", que exibe a arte milenar de trabalhar a fibra vegetal para obter elementos de cestaria excepcionais em uma variedade de formas e cores. Outro deles é o \"Festival del Cabrito\", onde o gourmet reúne o cabrito gourmete ate o cabrito tradicional na grelha, com uma extraordinária agenda artística de companhia.",
-             "audio": "http://goandtour.com/trh/audios/pt/7.mp3"
          }
      }
   },
   {
      "id": 8,
      "icon": "8.png",
-     "latitude": -27.498125,
-     "longitude": -64.860655,
-     "address": "Rivadavia 57",
-     "phone": "03858 42-3426",
+     "latitude": -27.785697,
+     "longitude": -64.260656,
+     "address": "Peatonal Tucumán 140",
      "main_image": "http://goandtour.com/trh/images/8-casino.jpg",
      "multimedia": [
        "http://goandtour.com/trh/images/8-casino.jpg",
@@ -244,28 +205,23 @@
      ],
      "langs": {
          "es": {
-             "title": "Casino",
-             "description": "El Casino de Las Termas de Río Hondo es uno de los casinos más antiguos de la región. Su construcción data del año 1943 con un estilo colonial en su fachada, además de una moderna y lujosa estructura en su interior.",
+             "title": "Mercado Armonía",
+             "description": "El \"Mercado frigorífico Armonía\" es un edificio público, de una gran diversidad de comercios,  ubicado en el centro mismo de la ciudad.",
              "audio": "http://goandtour.com/trh/audios/es/8.mp3"
          },
          "en": {
-             "title": "Casino",
-             "description": "The Casino of Rio Hondo is one of the oldest casinos of the region. Its construction dates from year 1943 and features a colonial style and a modern and luxurious structure in its interior.",
+             "title": "\"Armonia\" Traditional Market",
+             "description": "El \"Mercado frigorífico Armonía\" es un edificio público, de una gran diversidad de comercios,  ubicado en el centro mismo de la ciudad.",
              "audio": "http://goandtour.com/trh/audios/en/8.mp3"
-         },
-         "pt": {
-             "title": "Cassino",
-             "description": "O Cassino de Las Termas de Río Hondo é um dos mais antigos cassinos da região. Sua construção remonta a 1943 com um estilo colonial em sua fachada, bem como uma estrutura moderna e luxuosa no interior.",
-             "audio": "http://goandtour.com/trh/audios/pt/8.mp3"
          }
      }
   },
   {
      "id": 9,
      "icon": "9.png",
-     "latitude": -27.499105,
-     "longitude": -64.861293,
-     "address": "Entre Av. Juan B. Alberdi y Av. Juan M. Belgrano",
+     "latitude": -27.783759,
+     "longitude": -64.264338,
+     "address": "Av. Rivadavia 550",
      "main_image": "http://goandtour.com/trh/images/9-parque-guemes.jpg",
      "multimedia": [
        "http://goandtour.com/trh/images/9-parque-guemes.jpg",
@@ -273,28 +229,24 @@
      ],
      "langs": {
          "es": {
-             "title": "Parque Güemes",
-             "description": "Este parque es el corazón de Las Termas, atractivo que los visitantes disfrutan por sus arboledas, sus instalaciones y actividades permanentemente para toda la familia. Esta ubicado en el paso de la Ruta Nacional 9, y la Av. Manuel Belgrano, frente a la Plaza San Martín y el Casino.",
+             "title": "Plaza San martín",
+             "description": "Esta plaza es la segunda más importante de la capital y fue lugar de muchas actividades políticas y sociales gracias su estratégica ubicación, frente a la Casa de Gobierno.",
              "audio": "http://goandtour.com/trh/audios/es/9.mp3"
          },
          "en": {
-             "title": "Guemes Park",
-             "description": "This park is the heart of Termas, attractive that the visitors enjoy by its woods, its facilities and often social family activities. It is located in the National Route 9 passage, and Manuel Belgrano Avenue, in front of the San Martin Plaza and the Casino.",
+             "title": "The \"San Martín\" Square",
+             "description": "Esta plaza es la segunda más importante de la capital y fue lugar de muchas actividades políticas y sociales gracias su estratégica ubicación, frente a la Casa de Gobierno.",
              "audio": "http://goandtour.com/trh/audios/en/9.mp3"
-         },
-         "pt": {
-             "title": "Parque Güemes",
-             "description": "Este parque é o coração de Las Termas, uma atração que os visitantes apreciam por seus bosques, suas instalações e atividades permanentemente para toda a família. Está localizado na Rota Nacional 9 e na Avenida Manuel Belgrano, em frente à Plaza San Martín e ao Casino.",
-             "audio": "http://goandtour.com/trh/audios/pt/9.mp3"
          }
      }
   },
   {
      "id": 10,
      "icon": "10.png",
-     "latitude": -27.520471,
-     "longitude": -64.888230,
-     "address": "Embalse Rio Hondo",
+     "latitude": -27.784330,
+     "longitude": -64.264332,
+     "address": "Leandro N. Alem 22",
+     "phone": "0385 421-4941",
      "main_image": "http://goandtour.com/trh/images/10-lago-rio-hondo.jpg",
      "multimedia": [
        "http://goandtour.com/trh/images/10-lago-rio-hondo.jpg",
@@ -302,28 +254,23 @@
      ],
      "langs": {
          "es": {
-             "title": "Lago del Embalse Rio Hondo",
-             "description": "El Lago Frontal, es uno de los sitios más bonitos e inolvidables que tiene Las Termas de Rio Hondo. Este espejo de agua de 19km de largo y 17km de ancho alberga peces grandes y medianos, como dorados, bogas, bagres, tarariras, sábalos, pejerreyes y otros peces regionales.",
+             "title": "Colegio y Capilla Belén",
+             "description": "Instituto privado Belén y Capilla fundada por Las Esclavas del Corazón de Jesús en 1886.",
              "audio": "http://goandtour.com/trh/audios/es/10.mp3"
          },
          "en": {
-             "title": "Rio Hondo Lake Reservoir",
-             "description": "The Lago Frontal (Frontal Lake), is one of the prettiest, and most unforgettable sites that Termas can offer. This lake features a 19km long, 17 km wide water-mirror, which houses big and medium local fish, like dorados, bogas, catfishes, tarariras, sábalos and pejerreyes among others.",
+             "title": "Belen Chapel and Belen College",
+             "description": "Instituto privado Belén y Capilla fundada por Las Esclavas del Corazón de Jesús en 1886.",
              "audio": "http://goandtour.com/trh/audios/en/10.mp3"
-         },
-         "pt": {
-             "title": "Lago da Termas de Rio Hondo",
-             "description": "O Lago Frontal é um dos lugares mais bonitos e inesquecíveis que Las Termas de Rio Hondo tem. Este espelho d'água de 19 km de comprimento e 17 km de largura abriga peixes de grande e médio porte, como o dourado, bogas, bagre, tarariras, sabalo, pejerreyes e outros peixes regionais.",
-             "audio": "http://goandtour.com/trh/audios/pt/10.mp3"
          }
      }
   },
   {
      "id": 11,
      "icon": "11.png",
-     "latitude": -27.522710,
-     "longitude": -64.886542,
-     "address": "Dique Frontal, por Av. Costanera",
+     "latitude": -27.783577,
+     "longitude": -64.264645,
+     "address": "Rivadavia 550",
      "main_image": "http://goandtour.com/trh/images/11-dique.jpg",
      "multimedia": [
        "http://goandtour.com/trh/images/11-dique.jpg",
@@ -331,28 +278,24 @@
      ],
      "langs": {
          "es": {
-             "title": "Dique Frontal",
-             "description": "El Dique Frontal es sin duda una de las grandes obras de ingenieria realizadas en la provincia de Santiago del Estero. La gran importancia de este sitio es reconocida a nivel nacional.",
+             "title": "Casa de Gobierno",
+             "description": "La Casa de Gobierno se implanta en una manzana completa, frente a la céntrica Plaza San Martín. E la sede del Poder Ejecutivo Provincial y la oficina del Gobernador.",
              "audio": "http://goandtour.com/trh/audios/es/11.mp3"
          },
          "en": {
-             "title": "Frontal Mole",
-             "description": "The Dique frontal is without a doubt, one of the most amazing engineering projects achieved in the province of Santiago del Estero. The great relevance of this place is recognized at national level.",
+             "title": "Government House Of Sgo. Del Estero",
+             "description": "La Casa de Gobierno se implanta en una manzana completa, frente a la céntrica Plaza San Martín. E la sede del Poder Ejecutivo Provincial y la oficina del Gobernador.",
              "audio": "http://goandtour.com/trh/audios/en/11.mp3"
-         },
-         "pt": {
-             "title": "Dique de Contenção",
-             "description": "O Dique Frontal é, sem dúvida, uma das grandes obras de engenharia realizadas na província de Santiago del Estero. A grande importância deste site é reconhecida nacionalmente",
-             "audio": "http://goandtour.com/trh/audios/pt/11.mp3"
          }
      }
   },
   {
      "id": 12,
      "icon": "12.png",
-     "latitude": -27.516611,
-     "longitude": -64.883314,
-     "address": "Isla Tara Inti",
+     "latitude": -27.781235,
+     "longitude": -64.264776,
+     "address": "Av. Alvear e H. Irigoyen",
+     "phone": "0385 450-7500",
      "main_image": "http://goandtour.com/trh/images/12-tara-inti.jpg",
      "multimedia": [
        "http://goandtour.com/trh/images/12-tara-inti.jpg",
@@ -360,28 +303,23 @@
      ],
      "langs": {
          "es": {
-             "title": "Reserva Natural Tara Inti",
-             "description": "La Reserva Natural Tara Inti, se encuentra situada en el medio del Rio Dulce, a orillas de la nueva costanera y del Dique Frontal. Este sitio cuenta con una amplia superficie de más de 20 hectáreas donde se puede disfrutar de gran diversidad natural, realizar paseos y actividades recreativas para toda la familia.",
+             "title": "Palacio de tribunales",
+             "description": "Edificio público que ocupa una manzana entre calles Alvear, Chacabuco, H. Irigoyen y Absalón Rojas.",
              "audio": "http://goandtour.com/trh/audios/es/12.mp3"
          },
          "en": {
-             "title": "Tara Inti Natural Reserve",
-             "description": "The Tara Inti Natural Reserve is located in the middle of the Rio Dulce, in the shore of the Dique Frontal. Being only 3 km away from the city downtown, direct contact with native nature becomes a reality.",
+             "title": "The Court Palace",
+             "description": "Edificio público que ocupa una manzana entre calles Alvear, Chacabuco, H. Irigoyen y Absalón Rojas.",
              "audio": "http://goandtour.com/trh/audios/en/12.mp3"
-         },
-         "pt": {
-             "title": "Reserva Natural Tara Inti",
-             "description": "A Reserva Natural Tara Inti está localizada no meio do Rio Dulce, às margens da nova costanera e do dique frontal. Este local tem uma área extensa de mais de 20 hectares onde você pode desfrutar de grande diversidade natural, fazer caminhadas e atividades recreativas para toda a família.",
-             "audio": "http://goandtour.com/trh/audios/pt/12.mp3"
          }
      }
   },
   {
      "id": 13,
      "icon": "13.png",
-     "latitude": -27.499856,
-     "longitude": -64.860067,
-     "address": "",
+     "latitude": -27.782250,
+     "longitude": -64.265174,
+     "address": "Av. Alvear desde calle Perú hasta Av. Belgrano",
      "main_image": "http://goandtour.com/trh/images/13-ciudad-termas.jpg",
      "multimedia": [
        "http://goandtour.com/trh/images/13-ciudad-termas.jpg",
@@ -389,29 +327,23 @@
      ],
      "langs": {
          "es": {
-             "title": "Ciudad de Las Termas de Rio Hondo",
-             "description": "Las aguas del Río Dulce ya eran conocidas desde la época precolombina con el nombre de Aguas del Sol. El prestigio de esta ciudad existe desde hace siglos, la gente se acercaba desde diferentes lugares para disfrutar de las \"aguas milagrosas\" y de un microclima único.",
+             "title": "Paseo Alvear",
+             "description": "Renovado espacio verde en la zona céntrica de la ciudad que ofrece áreas de descanso y recreación para toda la familia.",
              "audio": "http://goandtour.com/trh/audios/es/13.mp3"
          },
          "en": {
-             "title": "City of Termas de Rio Hondo",
-             "description": "The Rio Dulce waters were already known since pre-Columbian times with the name Aguas de Sol (waters of sun). The prestige of this city exists since centuries, gathethers approached from different places to enjoy miraculous waters and a unique microclimate.",
+             "title": "Alvear Boulevard",
+             "description": "Renovado espacio verde en la zona céntrica de la ciudad que ofrece áreas de descanso y recreación para toda la familia.",
              "audio": "http://goandtour.com/trh/audios/en/13.mp3"
-         },
-         "pt": {
-             "title": "Cidade de termas de rio hondo",
-             "description": "As águas do Rio Dulce eram conhecidas desde a era pré-colombiana com o nome de Águas do Sol. O prestígio desta cidade existe há séculos, as pessoas vieram de lugares diferentes para apreciar as \"águas milagrosas\" e um microclima único.",
-             "audio": "http://goandtour.com/trh/audios/pt/13.mp3"
          }
      }
   },
   {
      "id": 14,
      "icon": "14.png",
-     "latitude": -27.511926,
-     "longitude": -64.920381,
-     "address": "Autodromo",
-     "phone": "0385 421-8606",
+     "latitude": -27.780302,
+     "longitude": -64.262493,
+     "address": "Perú 510",
      "main_image": "http://goandtour.com/trh/images/14-museo-automovil.jpg",
      "multimedia": [
        "http://goandtour.com/trh/images/14-museo-automovil.jpg",
@@ -419,29 +351,24 @@
      ],
      "langs": {
          "es": {
-             "title": "Museo del automóvil",
-             "description": "Se encuentra contenido dentro del autódromo “Circuito Internacional Termas de Río Hondo”, ubicado a 6 kilómetros de la ciudad. Fue Inaugurado el 5 de octubre de 2012, posee un establecimiento de última generación donde se puso en valor a antiguos Automóviles, Motocicletas y otros elementos relacionados al mundo del deporte motor.",
+             "title": "FORUM Centro de Convenciones",
+             "description": "El Fórum Santiago del Estero, Centro de Convenciones y Exposiciones es un edificio ubicado en la ciudad de Santiago del Estero (Argentina) que está destinado a reuniones, congresos, seminarios y convenciones entre otros usos.",
              "audio": "http://goandtour.com/trh/audios/es/14.mp3"
          },
          "en": {
-             "title": "Automobile Museum",
-             "description": "It is within the racetrack “International Circuit of Rio Hondo”, located 6 kilometers from the city. It was inaugurated on October fith,2012, possesses a last-generation establishment where old Automobiles, Motorcycles and other elements related to the world of the motor sport, are revalued.",
+             "title": "FORUM Center of conventions",
+             "description": "El Fórum Santiago del Estero, Centro de Convenciones y Exposiciones es un edificio ubicado en la ciudad de Santiago del Estero (Argentina) que está destinado a reuniones, congresos, seminarios y convenciones entre otros usos.",
              "audio": "http://goandtour.com/trh/audios/en/14.mp3"
-         },
-         "pt": {
-             "title": "Museu do automovel",
-             "description": "Está contido no \"Circuito Internacional Termas de Rio Hondo\", localizado a 6 km da cidade. Foi inaugurado em 5 de outubro de 2012, tem um estabelecimento onde automóveis antigos, motocicletas e outros elementos relacionados ao mundo do esporte a motor foram valorizados.",
-             "audio": "http://goandtour.com/trh/audios/pt/14.mp3"
          }
      }
   },
   {
      "id": 15,
      "icon": "15.png",
-     "latitude": -27.496599,
-     "longitude": -64.860645,
-     "address": "Caseros 268",
-     "phone": "03858 46-1344",
+     "latitude": -27.778830,
+     "longitude": -64.262699,
+     "address": "Av. Roca Norte 100",
+     "phone": "0385 422-7091",
      "main_image": "http://goandtour.com/trh/images/15-museo-atacama.jpg",
      "multimedia": [
        "http://goandtour.com/trh/images/15-museo-atacama.jpg",
@@ -449,28 +376,23 @@
      ],
      "langs": {
          "es": {
-             "title": "Museo Municipal Rincón de Atacama",
-             "description": "Este espacio está destinado al pasado paleontologico de la región, permite observar y conocer como fue la vida en este territorio miles de años atrás. El Museo Municipal Rincón de Athacama, se encuentra abierto desde el 25 de Noviembre de 1988.",
+             "title": "Terminal de Ómnibus",
+             "description": "Inaugurada en el año 2008, es una de las terminales más modernas y de destacable estética en la argentina.",
              "audio": "http://goandtour.com/trh/audios/es/15.mp3"
          },
          "en": {
-             "title": "Rincon de Atacama Museum",
-             "description": "This Museum is considered as Paleoantropological and is named Rincon de Athacama by the archaeological deposits of Athacama from where the exhibition pieces come. This place intended for the paleontological past of the region, allows observing and learning how life in this territory was thousands of years ago.",
+             "title": "Bus Terminal",
+             "description": "Inaugurada en el año 2008, es una de las terminales más modernas y de destacable estética en la argentina.",
              "audio": "http://goandtour.com/trh/audios/en/15.mp3"
-         },
-         "pt": {
-             "title": "Museu Rincon de Atacama",
-             "description": "Este espaço é destinado ao passado paleontológico da região, permite observar e conhecer como era a vida neste território há milhares de anos. O Museu Municipal Rincón de Athacama, está aberto desde 25 de novembro de 1988.",
-             "audio": "http://goandtour.com/trh/audios/pt/15.mp3"
          }
      }
   },
   {
      "id": 16,
      "icon": "16.png",
-     "latitude": -27.496800,
-     "longitude": -64.863243,
-     "address": "Juan B. Alberdi y Mariano Moreno, Parque guemes",
+     "latitude": -27.779560,
+     "longitude": -64.262999,
+     "address": "Perú 535",
      "main_image": "http://goandtour.com/trh/images/16-museo-arte.jpg",
      "multimedia": [
        "http://goandtour.com/trh/images/16-museo-arte.jpg",
@@ -478,29 +400,24 @@
      ],
      "langs": {
          "es": {
-             "title": "Museo de Arte y artesanías regionales",
-             "description": "La temática de este Museo, es el arte regional y americano, es así que las piezas interactúan con las obras figurativas y composiciones abstractas.",
+             "title": "Tren al Desarrollo",
+             "description": "Se trata de un novedoso tren de avanzada tecnología que circula por las vías remodeladas, de lo que fue el antiguo Ferrocarril Mitre Argentino. Ofrece una vista panorámica de la ciudad, cuenta con capacidad para 100 personas y recorre una distancia total de 8 km.",
              "audio": "http://goandtour.com/trh/audios/es/16.mp3"
          },
          "en": {
-             "title": "Fine Arts and regional crafts Museum",
-             "description": "The theme of this Museum, is the regional and american art, so it is that the pieces interact with figurative works and abstract compositions, generating the proper space for the delight and enjoyement of visual speeches.",
+             "title": "Turistical Train ´al desarrollo´",
+             "description": "Se trata de un novedoso tren de avanzada tecnología que circula por las vías remodeladas, de lo que fue el antiguo Ferrocarril Mitre Argentino. Ofrece una vista panorámica de la ciudad, cuenta con capacidad para 100 personas y recorre una distancia total de 8 km.",
              "audio": "http://goandtour.com/trh/audios/en/16.mp3"
-         },
-         "pt": {
-             "title": "Museu de Belas Artes",
-             "description": "O tema deste museu é a arte regional e americana, por isso as peças interagem com obras figurativas e composições abstratas.",
-             "audio": "http://goandtour.com/trh/audios/pt/16.mp3"
          }
      }
   },
   {
      "id": 17,
      "icon": "17.png",
-     "latitude": -27.498415,
-     "longitude": -64.863311,
-     "address": "Av. Manuel Belgrano 345",
-     "phone": "03858 42-3774",
+     "latitude": -27.789560,
+     "longitude": -64.259936,
+     "address": "Av. Belgrano Sur 524",
+     "phone": "0385 422-0000",
      "main_image": "http://goandtour.com/trh/images/17-centro-cultural-san-martin.jpg",
      "multimedia": [
        "http://goandtour.com/trh/images/17-centro-cultural-san-martin.jpg",
@@ -508,28 +425,23 @@
      ],
      "langs": {
          "es": {
-             "title": "Centro Cultural General San Martin",
-             "description": "En el corazón de Las Termas se encuentra el Centro Cultural General San Martín, un edificio histórico, sede de los mayores encuentros culturales, artísticos y sociales de la zona.",
+             "title": "Complejo Juan Felipe Ibarra",
+             "description": "Se trata de un moderno conjunto de edificios gubernamentales, cuya superficie abarca casi la totalidad de una manzana, inaugurados en 2014.",
              "audio": "http://goandtour.com/trh/audios/es/17.mp3"
          },
          "en": {
-             "title": "Gral. San Martin Cultural Center",
-             "description": "In the heart of Las Termas lays the Centro Cultural General San Mart (General San Martin Culture Center), a historical building that hosts major cultural, artistic and social events.",
+             "title": "\"Juan Felipe Ibarra\" Complex",
+             "description": "Se trata de un moderno conjunto de edificios gubernamentales, cuya superficie abarca casi la totalidad de una manzana, inaugurados en 2014.",
              "audio": "http://goandtour.com/trh/audios/en/17.mp3"
-         },
-         "pt": {
-             "title": "Centro cultural general san martin",
-             "description": "No coração de Las Termas está o Centro Cultural Geral San Martín, um edifício histórico que abriga os maiores encontros culturais, artísticos e sociais da região",
-             "audio": "http://goandtour.com/trh/audios/pt/17.mp3"
          }
      }
   },
   {
      "id": 18,
      "icon": "18.png",
-     "latitude": -27.586253,
-     "longitude": -64.909889,
-     "address": "ruta 333, a 17 km de termas",
+     "latitude": -27.790393,
+     "longitude": -64.258211,
+     "address": "24 de Septiembre 319",
      "main_image": "http://goandtour.com/trh/images/18-villa-rio-hondo.jpg",
      "multimedia": [
        "http://goandtour.com/trh/images/18-villa-rio-hondo.jpg",
@@ -537,28 +449,24 @@
      ],
      "langs": {
          "es": {
-             "title": "Villa Rio Hondo",
-             "description": "La historia de Villa Río Hondo, es muy interesante, ya que se relata el éxodo de un pueblo que sufría muchas inundaciones por estar a la orilla del Rio Dulce.",
+             "title": "Iglesia de La Merced",
+             "description": "Ubicada en calle 24 de septiembre y Urquiza, es el templo de mayor antigüedad en Santiago del Estero. Su construcción data del año 1851.",
              "audio": "http://goandtour.com/trh/audios/es/18.mp3"
          },
          "en": {
-             "title": "Rio Hondo Village",
-             "description": "The history of Villa Río Hondo, is very interesting, since it tells the exodus of a village which suffered many floods by being on the banks of the Rio Dulce.",
+             "title": "La Merced Church",
+             "description": "Ubicada en calle 24 de septiembre y Urquiza, es el templo de mayor antigüedad en Santiago del Estero. Su construcción data del año 1851.",
              "audio": "http://goandtour.com/trh/audios/en/18.mp3"
-         },
-         "pt": {
-             "title": "Vila Rio Hondo",
-             "description": "A história da Villa Río Hondo, é muito interessante, uma vez que se relaciona com o êxodo de uma cidade que sofreu muitas inundações por estar nas margens do Rio Dulce.",
-             "audio": "http://goandtour.com/trh/audios/pt/18.mp3"
          }
      }
   },
   {
      "id": 19,
      "icon": "19.png",
-     "latitude": -27.393839,
-     "longitude": -64.850271,
-     "address": "calle Maipu a 14 km. de Termas",
+     "latitude": -27.787941,
+     "longitude": -64.254583,
+     "address": "Urquiza 397",
+     "phone": "0385 421-2941",
      "main_image": "http://goandtour.com/trh/images/19-vinara.jpg",
      "multimedia": [
        "http://goandtour.com/trh/images/19-vinara.jpg",
@@ -566,28 +474,23 @@
      ],
      "langs": {
          "es": {
-             "title": "Vinará",
-             "description": "El poblado de Vinará, es uno de los más antiguos de la zona, era Posta del Camino Real que unía Perú de Buenos Aires. Siendo límite entre Santiago del Estero y Tucumán, era un sitio donde los viajeros podían descansar de las largas y agotadoras travesías.",
+             "title": "Iglesia Santo Domingo",
+             "description": "Templo católico que data de 1881.",
              "audio": "http://goandtour.com/trh/audios/es/19.mp3"
          },
          "en": {
-             "title": "Vinará town",
-             "description": "The village of Vinará, is one of the oldest in the area, it was a \"Posta\" (Stopping Place) of the Camino Real (Royal Road) that linked Buenos Aires and Peru. Bordering Santiago del Estero and Tucumán, it was a place where travelers could rest from long and exhausting journeys.",
+             "title": "Santo Domingo Church",
+             "description": "Templo católico que data de 1881.",
              "audio": "http://goandtour.com/trh/audios/en/19.mp3"
-         },
-         "pt": {
-             "title": "Vinará",
-             "description": "A cidade de Vinará, é uma das mais antigas da região, foi a Posta del Camino Real que ligou o Peru a Buenos Aires. Sendo a fronteira entre Santiago del Estero e Tucumán, era um lugar onde os viajantes podiam descansar das longas e exaustivas jornadas.",
-             "audio": "http://goandtour.com/trh/audios/pt/19.mp3"
          }
      }
   },
   {
      "id": 20,
      "icon": "20.png",
-     "latitude": -27.498461,
-     "longitude": -64.854832,
-     "address": "N. Avellaneda 102-200",
+     "latitude": -27.785663,
+     "longitude": -64.254885,
+     "address": "Iglesia San Francisco",
      "main_image": "http://goandtour.com/trh/images/20-mercado-municipal.jpg",
      "multimedia": [
        "http://goandtour.com/trh/images/20-mercado-municipal.jpg",
@@ -595,19 +498,207 @@
      ],
      "langs": {
          "es": {
-             "title": "Mercado Municipal de Termas de Rio Hondo",
-             "description": "Dicen que el Mercado es el corazón de una ciudad, y en este caso lo és. El Mercado Municipal, reúne a productores locales y visitantes de todas partes de lunes a sábado por la mañana de 7 a 13hs, y por la tarde de 17 a 21hs.",
+             "title": "Sabana Santa",
+             "description": "En el templo de santo Domingo, se encuentra la reliquia más importante local, una réplica del Santo Sudario de Turín (Italia).",
              "audio": "http://goandtour.com/trh/audios/es/20.mp3"
          },
          "en": {
-             "title": "Town Market",
-             "description": "The Market speaks by itself, and counts the history of the town that became city, the visitor can get to know the traditions of its people, the culture, the production and the economy.",
+             "title": "The Holy Shroud",
+             "description": "En el templo de santo Domingo, se encuentra la reliquia más importante local, una réplica del Santo Sudario de Turín (Italia).",
              "audio": "http://goandtour.com/trh/audios/en/20.mp3"
+         }
+     }
+  }
+  ,
+  {
+     "id": 21,
+     "icon": "21.png",
+     "latitude": -27.785786,
+     "longitude": -64.255457,
+     "address": "Av. Roca 710",
+     "main_image": "http://goandtour.com/trh/images/20-mercado-municipal.jpg",
+     "multimedia": [
+       "http://goandtour.com/trh/images/20-mercado-municipal.jpg",
+       "http://goandtour.com/trh/images/20-mercado-municipal-2.jpg"
+     ],
+     "langs": {
+         "es": {
+             "title": "Iglesia San Francisco",
+             "description": "El Templo de San Francisco fue reedificado cuatro veces, todas en el mismo lugar. Se atribuye al Padre Rivadeneyra la primera construcción del año 1567. La segunda fue obra de San Francisco Solano en 1593. Fue declarado Monumento Histórico Nacional.",
+             "audio": "http://goandtour.com/trh/audios/es/20.mp3"
          },
-         "pt": {
-             "title": "S",
-             "description": "La ",
-             "audio": "http://goandtour.com/trh/audios/pt/20.mp3"
+         "en": {
+             "title": "San Francisco Church",
+             "description": "El Templo de San Francisco fue reedificado cuatro veces, todas en el mismo lugar. Se atribuye al Padre Rivadeneyra la primera construcción del año 1567. La segunda fue obra de San Francisco Solano en 1593. Fue declarado Monumento Histórico Nacional.",
+             "audio": "http://goandtour.com/trh/audios/en/20.mp3"
+         }
+     }
+  },
+  {
+     "id": 22,
+     "icon": "22.png",
+     "latitude": -27.784863,
+     "longitude": -64.253508,
+     "address": "Calle Olaechea s/n",
+     "main_image": "http://goandtour.com/trh/images/20-mercado-municipal.jpg",
+     "multimedia": [
+       "http://goandtour.com/trh/images/20-mercado-municipal.jpg",
+       "http://goandtour.com/trh/images/20-mercado-municipal-2.jpg"
+     ],
+     "langs": {
+         "es": {
+             "title": "Parque Francisco de Aguirre",
+             "description": "El Parque Aguirre, es el principal pulmón verde de la ciudad y un excelente espacio natural que cuenta con variadas instalaciones que fomentan la recreación a la vera del Río Dulce.",
+             "audio": "http://goandtour.com/trh/audios/es/20.mp3"
+         },
+         "en": {
+             "title": "Francisco de Aguirre Park",
+             "description": "El Parque Aguirre, es el principal pulmón verde de la ciudad y un excelente espacio natural que cuenta con variadas instalaciones que fomentan la recreación a la vera del Río Dulce.",
+             "audio": "http://goandtour.com/trh/audios/en/20.mp3"
+         }
+     }
+  },
+  {
+     "id": 23,
+     "icon": "23.png",
+     "latitude": -27.779776,
+     "longitude": -64.250099,
+     "address": "Av. Pozo de Vargas y Av. Nuñez del Prado",
+     "main_image": "http://goandtour.com/trh/images/20-mercado-municipal.jpg",
+     "multimedia": [
+       "http://goandtour.com/trh/images/20-mercado-municipal.jpg",
+       "http://goandtour.com/trh/images/20-mercado-municipal-2.jpg"
+     ],
+     "langs": {
+         "es": {
+             "title": "Monumento a Francisco de Aguirre",
+             "description": "Hacia el norte del Parque Aguirre se encuentra el monumento, pedestre de bronce, al fundador Francisco de Aguirre.",
+             "audio": "http://goandtour.com/trh/audios/es/20.mp3"
+         },
+         "en": {
+             "title": "Monument to Francisco de Aguirre",
+             "description": "Hacia el norte del Parque Aguirre se encuentra el monumento, pedestre de bronce, al fundador Francisco de Aguirre.",
+             "audio": "http://goandtour.com/trh/audios/en/20.mp3"
+         }
+     }
+  },
+  {
+     "id": 24,
+     "icon": "24.png",
+     "latitude": -27.776489,
+     "longitude": -64.252395,
+     "address": "Av. Nuñez del Prado",
+     "main_image": "http://goandtour.com/trh/images/20-mercado-municipal.jpg",
+     "multimedia": [
+       "http://goandtour.com/trh/images/20-mercado-municipal.jpg",
+       "http://goandtour.com/trh/images/20-mercado-municipal-2.jpg"
+     ],
+     "langs": {
+         "es": {
+             "title": "Cristo Redentor",
+             "description": "Figura de 21 metros de alto, construida por el escultor santiagueño Roberto Delgado que fue inaugurada en 1971.",
+             "audio": "http://goandtour.com/trh/audios/es/20.mp3"
+         },
+         "en": {
+             "title": "Christ the Reedemer",
+             "description": "Figura de 21 metros de alto, construida por el escultor santiagueño Roberto Delgado que fue inaugurada en 1971.",
+             "audio": "http://goandtour.com/trh/audios/en/20.mp3"
+         }
+     }
+  },
+  {
+     "id": 25,
+     "icon": "25.png",
+     "latitude": -27.782859,
+     "longitude": -64.247391,
+     "address": "Av. Nuñez del Prado",
+     "main_image": "http://goandtour.com/trh/images/20-mercado-municipal.jpg",
+     "multimedia": [
+       "http://goandtour.com/trh/images/20-mercado-municipal.jpg",
+       "http://goandtour.com/trh/images/20-mercado-municipal-2.jpg"
+     ],
+     "langs": {
+         "es": {
+             "title": "Parque de Los Niños",
+             "description": "Se trata de un área verde de casi cinco hectáreas con diversos juegos infantiles, iluminación moderna, senderos y parquizado. Ofrece espacios cómodos para toda la familia.",
+             "audio": "http://goandtour.com/trh/audios/es/20.mp3"
+         },
+         "en": {
+             "title": "Childhood Park",
+             "description": "Se trata de un área verde de casi cinco hectáreas con diversos juegos infantiles, iluminación moderna, senderos y parquizado. Ofrece espacios cómodos para toda la familia.",
+             "audio": "http://goandtour.com/trh/audios/en/20.mp3"
+         }
+     }
+  },
+  {
+     "id": 26,
+     "icon": "26.png",
+     "latitude": -27.765391,
+     "longitude": -64.262978,
+     "address": "",
+     "main_image": "http://goandtour.com/trh/images/20-mercado-municipal.jpg",
+     "multimedia": [
+       "http://goandtour.com/trh/images/20-mercado-municipal.jpg",
+       "http://goandtour.com/trh/images/20-mercado-municipal-2.jpg"
+     ],
+     "langs": {
+         "es": {
+             "title": "Puente Negro",
+             "description": "Primer puente entre La Banda y Santiago del Estero, actualmente en desuso desde el desmoronamiento que sufrió a causas de los grandes temporales del Río Dulce.",
+             "audio": "http://goandtour.com/trh/audios/es/20.mp3"
+         },
+         "en": {
+             "title": "Black Bridge",
+             "description": "Primer puente entre La Banda y Santiago del Estero, actualmente en desuso desde el desmoronamiento que sufrió a causas de los grandes temporales del Río Dulce.",
+             "audio": "http://goandtour.com/trh/audios/en/20.mp3"
+         }
+     }
+  },
+  {
+     "id": 27,
+     "icon": "27.png",
+     "latitude": -27.765586,
+     "longitude": -64.271191,
+     "address": "",
+     "main_image": "http://goandtour.com/trh/images/20-mercado-municipal.jpg",
+     "multimedia": [
+       "http://goandtour.com/trh/images/20-mercado-municipal.jpg",
+       "http://goandtour.com/trh/images/20-mercado-municipal-2.jpg"
+     ],
+     "langs": {
+         "es": {
+             "title": "Puente Carretero",
+             "description": "Este puente, que conecta La Banda y Santiago del Estero, tiene 864 metros de longitud y fue inaugurado en el año 1927. Funciona actualmente.",
+             "audio": "http://goandtour.com/trh/audios/es/20.mp3"
+         },
+         "en": {
+             "title": "Carretero Bridge",
+             "description": "Este puente, que conecta La Banda y Santiago del Estero, tiene 864 metros de longitud y fue inaugurado en el año 1927. Funciona actualmente.",
+             "audio": "http://goandtour.com/trh/audios/en/20.mp3"
+         }
+     }
+  },
+  {
+     "id": 28,
+     "icon": "28.png",
+     "latitude": -27.774658,
+     "longitude": -64.253360,
+     "address": "",
+     "main_image": "http://goandtour.com/trh/images/20-mercado-municipal.jpg",
+     "multimedia": [
+       "http://goandtour.com/trh/images/20-mercado-municipal.jpg",
+       "http://goandtour.com/trh/images/20-mercado-municipal-2.jpg"
+     ],
+     "langs": {
+         "es": {
+             "title": "Autopista Juan Domingo Perón",
+             "description": "Conocida como Autopista “Santiago-La Banda”, o “Puente Nuevo”, se trata del camino más directo que conecta la ciudad de Santiago del Estero con la Ciudad de La Banda.",
+             "audio": "http://goandtour.com/trh/audios/es/20.mp3"
+         },
+         "en": {
+             "title": "Juan Domingo Peron Highway",
+             "description": "Conocida como Autopista “Santiago-La Banda”, o “Puente Nuevo”, se trata del camino más directo que conecta la ciudad de Santiago del Estero con la Ciudad de La Banda.",
+             "audio": "http://goandtour.com/trh/audios/en/20.mp3"
          }
      }
   }

@@ -4,10 +4,10 @@ export const availableLanguages = [{
 }, {
     code: 'en',
     name: 'English'
-}, {
+}/*, {
 	code: 'pt',
 	name: 'Portuguese'
-}];
+}*/];
 
 
 export const defaultLanguage = 'es';
